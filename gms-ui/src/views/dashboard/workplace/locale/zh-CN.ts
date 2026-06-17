@@ -1,0 +1,33 @@
+export default {
+  'workplace.gameServer.status': '服务器状态',
+  'workplace.gameServer.currently': '服务目前',
+  'workplace.gameServer.serverControl': '服务端控制',
+  'workplace.running': '运行中...',
+  'workplace.stopped': '休息中',
+  'workplace.button.start': '启动',
+  'workplace.button.stop': '停止',
+  'workplace.button.restart': '重启',
+  'workplace.button.shutdown': '结束',
+  'workplace.button.shutdown.confirm':
+    '此操作将立即停止所有相关服务，需要在服务器中手动启动服务，确定停服吗？',
+  'workplace.button.restart.confirm':
+    '此操作将立即强制所有玩家下线并重新启动服务端，确定重启吗？',
+  'workplace.stop.minutes': '倒计时分钟',
+  'workplace.stop.shutdownMsg': '停服消息',
+  'workplace.stop.showServerMsg': '顶部黄字公告',
+  'workplace.stop.showCenterMsg': '中央喇叭通告',
+  'workplace.stop.showChatMsg': '聊天栏GM消息通知',
+  'workplace.button.stop.config': '关闭服务端',
+  'workplace.dataReload': '数据重载',
+  'workplace.unit.minutes': '分钟',
+  'workplace.stop.shutdownMsgDefault':
+    '默认值：服务器正在进行维护，将在 [minutes] 分钟之后关闭，请在此之前安全下线，以免出现数据丢失！',
+  'workplace.stop.messageTypes': '消息类型',
+  'workplace.button.dataReloadEvents': '重载事件',
+  'workplace.button.dataReloadMaps': '重载地图',
+  'workplace.button.dataReloadPortals': '重载传送点',
+  'workplace.button.dataReloadCashShop': '重载商城',
+  'workplace.stop.shutdownInProgress': '发起服务器关闭操作，请等待...',
+  'common.operationSuccess': '操作成功',
+  'common.requestFailed': '请求失败',
+};

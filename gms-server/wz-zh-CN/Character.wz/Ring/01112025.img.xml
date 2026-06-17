@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="01112025.img">
+<imgdir name="info">
+<int name="cash" value="1"/>
+<canvas name="icon" width="37" height="37">
+<vector name="origin" x="2" y="34"/>
+</canvas>
+<canvas name="iconRaw" width="36" height="34">
+<vector name="origin" x="1" y="34"/>
+</canvas>
+<string name="islot" value="Ri"/>
+<int name="reqJob" value="0"/>
+<int name="reqLevel" value="0"/>
+<canvas name="sample" width="238" height="165">
+</canvas>
+<imgdir name="textInfo">
+<int name="fontColor" value="2"/>
+<int name="fontSize" value="11"/>
+<string name="fontStyle" value="N"/>
+<int name="fontType" value="7"/>
+<string name="textHeightCenter" value="0"/>
+<int name="textLimit" value="24"/>
+<int name="textLine" value="2"/>
+<int name="textMove" value="1"/>
+<vector name="textRelMove" x="73" y="44"/>
+<int name="textW" value="82"/>
+<string name="textWidthCenter" value="1"/>
+</imgdir>
+<string name="vslot" value="Ri"/>
+</imgdir>
+</imgdir>

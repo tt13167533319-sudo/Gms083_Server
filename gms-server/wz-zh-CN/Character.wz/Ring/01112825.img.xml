@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="01112825.img">
+<imgdir name="info">
+<int name="cash" value="1"/>
+<canvas name="icon" width="32" height="35">
+<vector name="origin" x="-1" y="34"/>
+</canvas>
+<canvas name="iconRaw" width="32" height="35">
+<vector name="origin" x="-1" y="34"/>
+</canvas>
+<string name="islot" value="Ri"/>
+<int name="reqJob" value="0"/>
+<int name="reqLevel" value="0"/>
+<canvas name="sample" width="211" height="121">
+</canvas>
+<string name="vslot" value="Ri"/>
+</imgdir>
+</imgdir>

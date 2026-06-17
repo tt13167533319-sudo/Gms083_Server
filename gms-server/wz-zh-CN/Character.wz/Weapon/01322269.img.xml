@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="01322269.img">
+<imgdir name="info">
+<short name="attack" value="1"/>
+<int name="cash" value="0"/>
+<canvas name="icon" width="31" height="31">
+<vector name="origin" x="-1" y="31"/>
+</canvas>
+<canvas name="iconRaw" width="31" height="31">
+<vector name="origin" x="-1" y="31"/>
+</canvas>
+<string name="islot" value="Wp"/>
+<int name="reqJob" value="0"/>
+<int name="reqLevel" value="0"/>
+<int name="stand" value="1"/>
+<string name="vslot" value="Wp"/>
+<int name="walk" value="1"/>
+</imgdir>
+</imgdir>

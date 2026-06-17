@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="01152175.img">
+<imgdir name="info">
+<canvas name="icon" width="28" height="28">
+<vector name="origin" x="-3" y="28"/>
+</canvas>
+<canvas name="iconRaw" width="28" height="23">
+<vector name="origin" x="-3" y="28"/>
+</canvas>
+<int name="incDEX" value="1"/>
+<int name="incINT" value="1"/>
+<int name="incLUK" value="1"/>
+<int name="incSTR" value="1"/>
+<string name="islot" value="Sh"/>
+<int name="noPotential" value="1"/>
+<int name="price" value="500"/>
+<int name="reqLevel" value="30"/>
+<int name="setItemID" value="513"/>
+<int name="tradeBlock" value="1"/>
+<int name="tuc" value="2"/>
+<string name="vslot" value="Sh"/>
+</imgdir>
+</imgdir>

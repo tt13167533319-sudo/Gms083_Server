@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="01132314.img">
+<imgdir name="info">
+<int name="attackSpeed" value="0"/>
+<int name="cash" value="0"/>
+<int name="charmEXP" value="100"/>
+<int name="exItem" value="1"/>
+<canvas name="icon" width="40" height="32">
+<vector name="origin" x="4" y="32"/>
+</canvas>
+<canvas name="iconRaw" width="40" height="32">
+<vector name="origin" x="4" y="32"/>
+</canvas>
+<int name="incACC" value="0"/>
+<int name="incCraft" value="0"/>
+<int name="incDEX" value="30"/>
+<int name="incEVA" value="0"/>
+<int name="incINT" value="30"/>
+<int name="incJump" value="0"/>
+<int name="incLUK" value="30"/>
+<int name="incMAD" value="20"/>
+<int name="incMDD" value="100"/>
+<int name="incMHP" value="200"/>
+<int name="incMMP" value="200"/>
+<int name="incPAD" value="20"/>
+<int name="incPDD" value="100"/>
+<int name="incSpeed" value="0"/>
+<int name="incSTR" value="30"/>
+<string name="islot" value="Be"/>
+<int name="notSale" value="0"/>
+<int name="only" value="1"/>
+<int name="price" value="0"/>
+<int name="reqJob" value="0"/>
+<int name="reqLevel" value="140"/>
+<int name="reqPOP" value="0"/>
+<int name="setItemID" value="791"/>
+<int name="tradeBlock" value="1"/>
+<int name="tuc" value="4"/>
+<string name="vslot" value="Be"/>
+</imgdir>
+</imgdir>

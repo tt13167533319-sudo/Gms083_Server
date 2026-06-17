@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="01122162.img">
+<imgdir name="info">
+<int name="cash" value="0"/>
+<int name="charismaEXP" value="30"/>
+<int name="charmEXP" value="30"/>
+<canvas name="icon" width="30" height="32">
+<vector name="origin" x="-2" y="32"/>
+</canvas>
+<canvas name="iconRaw" width="30" height="31">
+<vector name="origin" x="-2" y="32"/>
+</canvas>
+<int name="incDEX" value="5"/>
+<int name="incINT" value="5"/>
+<int name="incJump" value="3"/>
+<int name="incLUK" value="5"/>
+<int name="incMDD" value="55"/>
+<int name="incPDD" value="55"/>
+<int name="incSpeed" value="5"/>
+<int name="incSTR" value="5"/>
+<string name="islot" value="Pe"/>
+<int name="price" value="0"/>
+<int name="reqJob" value="0"/>
+<int name="reqLevel" value="60"/>
+<int name="setItemID" value="55"/>
+<int name="tradeBlock" value="1"/>
+<int name="tuc" value="4"/>
+<string name="vslot" value="Pe"/>
+</imgdir>
+</imgdir>

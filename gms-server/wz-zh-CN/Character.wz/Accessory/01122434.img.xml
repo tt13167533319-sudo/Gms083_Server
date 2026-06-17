@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="01122434.img">
+<imgdir name="info">
+<int name="bossReward" value="1"/>
+<int name="cash" value="0"/>
+<int name="charismaEXP" value="120"/>
+<int name="charmEXP" value="120"/>
+<int name="exceptToadsHammer" value="1"/>
+<int name="exceptTransmission" value="1"/>
+<int name="exceptUpgrade" value="1"/>
+<int name="exItem" value="1"/>
+<int name="fixedGrade" value="3"/>
+<int name="fixedPotential" value="1"/>
+<canvas name="icon" width="32" height="30">
+<vector name="origin" x="0" y="30"/>
+</canvas>
+<canvas name="iconRaw" width="32" height="29">
+<vector name="origin" x="0" y="30"/>
+</canvas>
+<int name="incDEX" value="20"/>
+<int name="incINT" value="20"/>
+<int name="incLUK" value="20"/>
+<int name="incMAD" value="3"/>
+<int name="incMDD" value="100"/>
+<int name="incMHPr" value="10"/>
+<int name="incMMPr" value="10"/>
+<int name="incPAD" value="3"/>
+<int name="incPDD" value="100"/>
+<int name="incSTR" value="20"/>
+<string name="islot" value="Pe"/>
+<int name="onlyEquip" value="1"/>
+<imgdir name="option">
+<imgdir name="0">
+<int name="level" value="1"/>
+<int name="option" value="60080"/>
+</imgdir>
+<imgdir name="1">
+<int name="level" value="1"/>
+<int name="option" value="60081"/>
+</imgdir>
+<imgdir name="2">
+<int name="level" value="1"/>
+<int name="option" value="60081"/>
+</imgdir>
+</imgdir>
+<int name="price" value="1"/>
+<int name="reqJob" value="0"/>
+<int name="reqLevel" value="140"/>
+<int name="setItemID" value="462"/>
+<int name="specialGrade" value="1"/>
+<int name="tradeBlock" value="1"/>
+<int name="tuc" value="5"/>
+<string name="vslot" value="Pe"/>
+<int name="willEXP" value="120"/>
+</imgdir>
+</imgdir>

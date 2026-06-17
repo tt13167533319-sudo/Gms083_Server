@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="01984252.img">
+<imgdir name="info">
+<canvas name="icon" width="33" height="32">
+<vector name="origin" x="1" y="32"/>
+<int name="z" value="0"/>
+</canvas>
+<canvas name="iconRaw" width="33" height="32">
+<vector name="origin" x="1" y="32"/>
+<int name="z" value="0"/>
+</canvas>
+<int name="invisibleCape" value="1"/>
+<int name="invisibleWeapon" value="1"/>
+<int name="removeEffect" value="1"/>
+<int name="removeJobWing" value="1"/>
+</imgdir>
+<imgdir name="sit">
+<imgdir name="0">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="0" y="0"/>
+<string name="z" value="tamingMobRear"/>
+<imgdir name="map">
+<vector name="navel" x="30" y="-116"/>
+</imgdir>
+<vector name="lt" x="0" y="-107"/>
+<vector name="rb" x="103" y="0"/>
+</canvas>
+<string name="forceCharacterAction" value="sit"/>
+<int name="forceCharacterActionFrameIndex" value="0"/>
+</imgdir>
+</imgdir>
+</imgdir>

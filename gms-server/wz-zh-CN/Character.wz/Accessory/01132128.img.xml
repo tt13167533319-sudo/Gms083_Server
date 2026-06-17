@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="01132128.img">
+<imgdir name="info">
+<int name="accountShareTag" value="1"/>
+<int name="cash" value="0"/>
+<canvas name="icon" width="30" height="28">
+<vector name="origin" x="-1" y="28"/>
+</canvas>
+<canvas name="iconRaw" width="30" height="27">
+<vector name="origin" x="-1" y="28"/>
+</canvas>
+<int name="incDEX" value="2"/>
+<int name="incINT" value="2"/>
+<int name="incLUK" value="2"/>
+<int name="incMDD" value="30"/>
+<int name="incMHP" value="250"/>
+<int name="incMMP" value="250"/>
+<int name="incPDD" value="30"/>
+<int name="incSTR" value="2"/>
+<string name="islot" value="Be"/>
+<int name="noPotential" value="1"/>
+<int name="notSale" value="1"/>
+<int name="price" value="0"/>
+<int name="reqJob" value="0"/>
+<int name="reqLevel" value="30"/>
+<int name="tradeBlock" value="1"/>
+<int name="tuc" value="6"/>
+<string name="vslot" value="Be"/>
+</imgdir>
+</imgdir>

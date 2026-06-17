@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="GBK"?>
+<configuration status="ERROR" monitorInterval="300">
+
+    <Properties>
+        <!-- 基础配置 -->
+        <property name="basePath">logs</property>
+        <property name="console_log_pattern">%d{yyyy-MM-dd HH:mm:ss.SSS} [%5level] ==> %m%n</property>
+        <property name="log_pattern">%d{yyyy-MM-dd HH:mm:ss.SSS} [%5level] [%logger{36}] ==> %m%n</property>
+        <property name="every_file_size">10MB</property>
+        <property name="rolling_max">100</property>
+        <property name="rolling_timeInterval">1</property>
+        <property name="console_print_level">DEBUG</property>
+        <property name="output_log_level">INFO</property>
+        <property name="age">90d</property>
+        <property name="exceeds">100MB</property>
+
+        <!-- 1. 登录相关日志配置 -->
+        <property name="login_log_path">${basePath}/登录日志</property> <!-- 登录日志路径 -->
+        <property name="login_fileName">${login_log_path}/登录日志.log</property> <!-- 登录日志文件名 -->
+        <property name="login_filePattern">${login_log_path}/%d{yyyyMMdd}/登录日志%i.log</property> <!-- 滚动路径 -->
+
+        <!-- 2. BOSS日志配置  -->
+        <property name="boss_log_path">${basePath}/BOSS日志</property> <!-- BOSS日志根路径 -->
+        <property name="boss_fileName">${boss_log_path}/BOSS日志.log</property> <!-- 实时BOSS日志文件名 -->
+        <property name="boss_filePattern">${boss_log_path}/%d{yyyyMMdd}/BOSS日志%i.log</property> <!-- 按日期归档路径 -->
+
+        <!-- 3. 玩家相关日志配置  -->
+        <property name="character_log_path">${basePath}/角色日志</property> <!-- 日志根路径 -->
+        <property name="character_fileName">${character_log_path}/角色日志.log</property> <!-- 日志文件名 -->
+        <property name="character_filePattern">${character_log_path}/%d{yyyyMMdd}/角色日志%i.log</property> <!-- 按日期归档路径 -->
+
+        <!-- 4. 封包相关日志配置  -->
+        <property name="rcvP_log_path">${basePath}/封包日志</property> <!-- 日志根路径 -->
+        <property name="rcvP_fileName">${rcvP_log_path}/封包日志.log</property> <!-- 日志文件名 -->
+        <property name="rcvP_filePattern">${rcvP_log_path}/%d{yyyyMMdd}/封包日志%i.log</property> <!-- 按日期归档路径 -->
+
+        <!-- 5. 封号相关日志配置  -->
+        <property name="autoBan_log_path">${basePath}/封号日志</property> <!-- 日志根路径 -->
+        <property name="autoBan_fileName">${autoBan_log_path}/封号日志.log</property> <!-- 日志文件名 -->
+        <property name="autoBan_filePattern">${autoBan_log_path}/%d{yyyyMMdd}/封号日志%i.log</property> <!-- 按日期归档路径 -->
+
+        <!-- 6. 命令相关日志配置  -->
+        <property name="command_log_path">${basePath}/命令日志</property> <!-- 日志根路径 -->
+        <property name="command_fileName">${command_log_path}/命令日志.log</property> <!-- 日志文件名 -->
+        <property name="command_filePattern">${command_log_path}/%d{yyyyMMdd}/命令日志%i.log</property> <!-- 按日期归档路径 -->
+
+        <!-- 7. 聊天相关日志配置  -->
+        <property name="chat_log_path">${basePath}/聊天日志</property> <!-- 日志根路径 -->
+        <property name="chat_fileName">${chat_log_path}/聊天日志.log</property> <!-- 日志文件名 -->
+        <property name="chat_filePattern">${chat_log_path}/%d{yyyyMMdd}/聊天日志%i.log</property> <!-- 按日期归档路径 -->
+
+        <!-- 8. 交易相关日志配置  -->
+        <property name="trade_log_path">${basePath}/交易日志</property> <!-- 日志根路径 -->
+        <property name="trade_fileName">${trade_log_path}/交易日志.log</property> <!-- 日志文件名 -->
+        <property name="trade_filePattern">${trade_log_path}/%d{yyyyMMdd}/交易日志%i.log</property> <!-- 按日期归档路径 -->
+
+        <!-- 9. 抽奖相关日志配置  -->
+        <property name="gachapon_log_path">${basePath}/抽奖日志</property> <!-- 日志根路径 -->
+        <property name="gachapon_fileName">${gachapon_log_path}/抽奖日志.log</property> <!-- 日志文件名 -->
+        <property name="gachapon_filePattern">${gachapon_log_path}/%d{yyyyMMdd}/抽奖日志%i.log</property> <!-- 按日期归档路径 -->
+
+        <!-- 10. 商城相关日志配置  -->
+        <property name="cashshop_log_path">${basePath}/商城日志</property> <!-- 日志根路径 -->
+        <property name="cashshop_fileName">${cashshop_log_path}/商城日志.log</property> <!-- 日志文件名 -->
+        <property name="cashshop_filePattern">${cashshop_log_path}/%d{yyyyMMdd}/商城日志%i.log</property> <!-- 按日期归档路径 -->
+    </Properties>
+
+    <appenders>
+        <!-- 控制台输出（通用） -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <ThresholdFilter level="${console_print_level}" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern="${console_log_pattern}"/>
+        </Console>
+
+        <!-- 其他日志输出器（默认） -->
+        <RollingFile name="defaultFile" fileName="${basePath}/控制台日志/控制台日志.log" filePattern="${basePath}/控制台日志/%d{yyyyMMdd}/控制台日志%i.log">
+            <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern="${log_pattern}"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="${rolling_timeInterval}" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="${every_file_size}"/>
+            </Policies>
+            <DefaultRolloverStrategy max="${rolling_max}"/>
+        </RollingFile>
+
+        <!-- 1. 登录日志输出器 -->
+        <RollingFile name="loginFile" fileName="${login_fileName}" filePattern="${login_filePattern}">
+            <ThresholdFilter level="DEBUG" onMatch="ACCEPT" onMismatch="DENY"/> <!-- 登录日志级别 -->
+            <PatternLayout pattern="${log_pattern}"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="${rolling_timeInterval}" modulate="true"/> <!-- 按时间滚动 -->
+                <SizeBasedTriggeringPolicy size="${every_file_size}"/> <!-- 按大小滚动 -->
+            </Policies>
+            <DefaultRolloverStrategy max="${rolling_max}">
+                <Delete basePath="${login_log_path}" maxDepth="2"> <!-- 自动清理旧日志 -->
+                    <IfLastModified age="${age}"/>
+                    <IfAccumulatedFileSize exceeds="${exceeds}"/>
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingFile>
+
+        <!-- 2.BOSS日志输出器  -->
+        <RollingFile name="bossFile" fileName="${boss_fileName}" filePattern="${boss_filePattern}">
+            <!-- 日志级别：脚本用 log.info()，设为 INFO 即可（避免冗余调试日志） -->
+            <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+            <!-- 日志格式：保留 Logger 名称（脚本名），便于区分不同 BOSS 脚本 -->
+            <PatternLayout pattern="${log_pattern}"/>
+            <!-- 滚动策略：与其他日志保持一致（每天归档+10MB拆分） -->
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="${rolling_timeInterval}" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="${every_file_size}"/>
+            </Policies>
+            <!-- 旧日志清理：保留1天，超100MB自动删除（与登录/怪物日志逻辑统一） -->
+            <DefaultRolloverStrategy max="${rolling_max}">
+                <Delete basePath="${boss_log_path}" maxDepth="2">
+                    <IfLastModified age="${age}"/>
+                    <IfAccumulatedFileSize exceeds="${exceeds}" />
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingFile>
+
+        <!-- 3.玩家日志输出器  -->
+        <!-- 关联Properties日志配置，3个都改-->
+        <RollingFile name="characterFile" fileName="${character_fileName}" filePattern="${character_filePattern}">
+            <!-- 日志级别：脚本用 log.info()，设为 INFO 即可（避免冗余调试日志） -->
+            <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+            <!-- 日志格式：保留 Logger 名称（脚本名），便于区分不同 BOSS 脚本 -->
+            <PatternLayout pattern="${log_pattern}"/>
+            <!-- 滚动策略：与其他日志保持一致（每天归档+10MB拆分） -->
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="${rolling_timeInterval}" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="${every_file_size}"/>
+            </Policies>
+            <!-- 旧日志清理：保留1天，超100MB自动删除（与登录/怪物日志逻辑统一） -->
+            <DefaultRolloverStrategy max="${rolling_max}">
+                <!-- basePath关联loggers日志输出类，改-->
+                <Delete basePath="${character_log_path}" maxDepth="2">
+                    <IfLastModified age="${age}"/>
+                    <IfAccumulatedFileSize exceeds="${exceeds}"/>
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingFile>
+
+        <!-- 4.封包日志输出器  -->
+        <!-- 关联Properties日志配置，3个都改-->
+        <RollingFile name="rcvPFile" fileName="${rcvP_fileName}" filePattern="${rcvP_filePattern}">
+            <!-- 日志级别：脚本用 log.info()，设为 INFO 即可（避免冗余调试日志） -->
+            <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+            <!-- 日志格式：保留 Logger 名称（脚本名），便于区分不同 BOSS 脚本 -->
+            <PatternLayout pattern="${log_pattern}"/>
+            <!-- 滚动策略：与其他日志保持一致（每天归档+10MB拆分） -->
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="${rolling_timeInterval}" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="${every_file_size}"/>
+            </Policies>
+            <!-- 旧日志清理：保留1天，超100MB自动删除（与登录/怪物日志逻辑统一） -->
+            <DefaultRolloverStrategy max="${rolling_max}">
+                <!-- basePath关联loggers日志输出类，改-->
+                <Delete basePath="${rcvP_log_path}" maxDepth="2">
+                    <IfLastModified age="${age}"/>
+                    <IfAccumulatedFileSize exceeds="${exceeds}" />
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingFile>
+
+        <!-- 5.封号日志输出器  -->
+        <!-- 关联Properties日志配置，3个都改-->
+        <RollingFile name="autoBanFile" fileName="${autoBan_fileName}" filePattern="${autoBan_filePattern}">
+            <!-- 日志级别：脚本用 log.info()，设为 INFO 即可（避免冗余调试日志） -->
+            <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+            <!-- 日志格式：保留 Logger 名称（脚本名），便于区分不同 BOSS 脚本 -->
+            <PatternLayout pattern="${log_pattern}"/>
+            <!-- 滚动策略：与其他日志保持一致（每天归档+10MB拆分） -->
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="${rolling_timeInterval}" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="${every_file_size}"/>
+            </Policies>
+            <!-- 旧日志清理：保留1天，超100MB自动删除（与登录/怪物日志逻辑统一） -->
+            <DefaultRolloverStrategy max="${rolling_max}">
+                <!-- basePath关联loggers日志输出类，改-->
+                <Delete basePath="${autoBan_log_path}" maxDepth="2">
+                    <IfLastModified age="${age}"/>
+                    <IfAccumulatedFileSize exceeds="${exceeds}" />
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingFile>
+
+        <!-- 6.命令日志输出器  -->
+        <!-- 关联Properties日志配置，3个都改-->
+        <RollingFile name="commandFile" fileName="${command_fileName}" filePattern="${command_filePattern}">
+            <!-- 日志级别：脚本用 log.info()，设为 INFO 即可（避免冗余调试日志） -->
+            <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+            <!-- 日志格式：保留 Logger 名称（脚本名），便于区分不同 BOSS 脚本 -->
+            <PatternLayout pattern="${log_pattern}"/>
+            <!-- 滚动策略：与其他日志保持一致（每天归档+10MB拆分） -->
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="${rolling_timeInterval}" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="${every_file_size}"/>
+            </Policies>
+            <!-- 旧日志清理：保留1天，超100MB自动删除（与登录/怪物日志逻辑统一） -->
+            <DefaultRolloverStrategy max="${rolling_max}">
+                <!-- basePath关联loggers日志输出类，改-->
+                <Delete basePath="${command_log_path}" maxDepth="2">
+                    <IfLastModified age="${age}"/>
+                    <IfAccumulatedFileSize exceeds="${exceeds}" />
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingFile>
+
+        <!-- 7.聊天日志输出器  -->
+        <!-- 关联Properties日志配置，3个都改-->
+        <RollingFile name="chatFile" fileName="${chat_fileName}" filePattern="${chat_filePattern}">
+            <!-- 日志级别：脚本用 log.info()，设为 INFO 即可（避免冗余调试日志） -->
+            <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+            <!-- 日志格式：保留 Logger 名称（脚本名），便于区分不同 BOSS 脚本 -->
+            <PatternLayout pattern="${log_pattern}"/>
+            <!-- 滚动策略：与其他日志保持一致（每天归档+10MB拆分） -->
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="${rolling_timeInterval}" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="${every_file_size}"/>
+            </Policies>
+            <!-- 旧日志清理：保留1天，超100MB自动删除（与登录/怪物日志逻辑统一） -->
+            <DefaultRolloverStrategy max="${rolling_max}">
+                <!-- basePath关联loggers日志输出类，改-->
+                <Delete basePath="${chat_log_path}" maxDepth="2">
+                    <IfLastModified age="${age}"/>
+                    <IfAccumulatedFileSize exceeds="${exceeds}" />
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingFile>
+
+        <!-- 8.交易日志输出器  -->
+        <!-- 关联Properties日志配置，3个都改-->
+        <RollingFile name="tradeFile" fileName="${trade_fileName}" filePattern="${trade_filePattern}">
+            <!-- 日志级别：脚本用 log.info()，设为 INFO 即可（避免冗余调试日志） -->
+            <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+            <!-- 日志格式：保留 Logger 名称（脚本名），便于区分不同 BOSS 脚本 -->
+            <PatternLayout pattern="${log_pattern}"/>
+            <!-- 滚动策略：与其他日志保持一致（每天归档+10MB拆分） -->
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="${rolling_timeInterval}" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="${every_file_size}"/>
+            </Policies>
+            <!-- 旧日志清理：保留1天，超100MB自动删除（与登录/怪物日志逻辑统一） -->
+            <DefaultRolloverStrategy max="${rolling_max}">
+                <!-- basePath关联loggers日志输出类，改-->
+                <Delete basePath="${trade_log_path}" maxDepth="2">
+                    <IfLastModified age="${age}"/>
+                    <IfAccumulatedFileSize exceeds="${exceeds}" />
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingFile>
+
+        <!-- 9.抽奖日志输出器  -->
+        <!-- 关联Properties日志配置，3个都改-->
+        <RollingFile name="gachaponFile" fileName="${gachapon_fileName}" filePattern="${gachapon_filePattern}">
+            <!-- 日志级别：脚本用 log.info()，设为 INFO 即可（避免冗余调试日志） -->
+            <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+            <!-- 日志格式：保留 Logger 名称（脚本名），便于区分不同 BOSS 脚本 -->
+            <PatternLayout pattern="${log_pattern}"/>
+            <!-- 滚动策略：与其他日志保持一致（每天归档+10MB拆分） -->
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="${rolling_timeInterval}" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="${every_file_size}"/>
+            </Policies>
+            <!-- 旧日志清理：保留1天，超100MB自动删除（与登录/怪物日志逻辑统一） -->
+            <DefaultRolloverStrategy max="${rolling_max}">
+                <!-- basePath关联loggers日志输出类，改-->
+                <Delete basePath="${gachapon_log_path}" maxDepth="2">
+                    <IfLastModified age="${age}"/>
+                    <IfAccumulatedFileSize exceeds="${exceeds}" />
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingFile>
+
+        <!-- 10.商城日志输出器  -->
+        <!-- 关联Properties日志配置，3个都改-->
+        <RollingFile name="cashshopFile" fileName="${cashshop_fileName}" filePattern="${cashshop_filePattern}">
+            <!-- 日志级别：脚本用 log.info()，设为 INFO 即可（避免冗余调试日志） -->
+            <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+            <!-- 日志格式：保留 Logger 名称（脚本名），便于区分不同 BOSS 脚本 -->
+            <PatternLayout pattern="${log_pattern}"/>
+            <!-- 滚动策略：与其他日志保持一致（每天归档+10MB拆分） -->
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="${rolling_timeInterval}" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="${every_file_size}"/>
+            </Policies>
+            <!-- 旧日志清理：保留1天，超100MB自动删除（与登录/怪物日志逻辑统一） -->
+            <DefaultRolloverStrategy max="${rolling_max}">
+                <!-- basePath关联loggers日志输出类，改-->
+                <Delete basePath="${cashshop_log_path}" maxDepth="2">
+                    <IfLastModified age="${age}"/>
+                    <IfAccumulatedFileSize exceeds="${exceeds}" />
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingFile>
+
+    </appenders>
+
+    <loggers>
+        <!-- 1. 登录相关类/包：输出到登录日志 -->
+        <!-- 匹配 LoginPasswordHandler 所在的包路径 -->
+        <logger name="org.gms.net.server.handlers.login" level="DEBUG" additivity="false">
+            <appender-ref ref="loginFile"/> <!-- 登录日志文件 -->
+            <appender-ref ref="defaultFile"/> <!-- 同时输出到控制台（可选） -->
+            <appender-ref ref="Console"/>
+        </logger>
+        <logger name="org/gms/net/server/channel/handlers/PlayerLoggedinHandler" level="DEBUG" additivity="false">
+            <appender-ref ref="loginFile"/> <!-- 登录日志文件 -->
+            <appender-ref ref="defaultFile"/> <!-- 同时输出到控制台（可选） -->
+            <appender-ref ref="Console"/>
+        </logger>
+        <logger name="org/gms/net/server/coordinator/session/SessionCoordinator" level="DEBUG" additivity="false">
+            <appender-ref ref="loginFile"/> <!-- 登录日志文件 -->
+            <appender-ref ref="defaultFile"/> <!-- 同时输出到控制台（可选） -->
+            <appender-ref ref="Console"/>
+        </logger>
+        <logger name="org.gms.net.netty.ChannelServerInitializer" level="DEBUG" additivity="false">
+            <appender-ref ref="loginFile"/> <!-- 登录日志文件 -->
+            <appender-ref ref="defaultFile"/> <!-- 同时输出到控制台（可选） -->
+            <appender-ref ref="Console"/>
+        </logger>
+        <logger name="org.gms.net.netty.LoginServerInitializer" level="DEBUG" additivity="false">
+            <appender-ref ref="loginFile"/> <!-- 登录日志文件 -->
+            <appender-ref ref="defaultFile"/> <!-- 同时输出到控制台（可选） -->
+            <appender-ref ref="Console"/>
+        </logger>
+
+        <!-- 2.BOSS日志关联  -->
+        <logger name="org.gms.server.expeditions.Expedition" level="INFO" additivity="false">
+            <appender-ref ref="bossFile"/> <!-- 定向到 BOSS 专属日志文件 远征队-->
+            <appender-ref ref="defaultFile"/> <!-- 同时输出到控制台（可选） -->
+            <appender-ref ref="Console"/>
+        </logger>
+        <logger name="AreaBoss" level="INFO" additivity="false">
+            <appender-ref ref="bossFile"/> <!-- 定向到 BOSS 专属日志文件 野外BOSS-->
+            <appender-ref ref="defaultFile"/> <!-- 同时输出到控制台（可选） -->
+            <appender-ref ref="Console"/>
+        </logger>
+
+        <!-- 3.玩家日志控制 name关联 -->
+        <logger name="org.gms.client.Character" level="INFO" additivity="false">
+            <appender-ref ref="characterFile"/> <!-- 定向到专属日志文件，改 -->
+            <appender-ref ref="defaultFile"/> <!-- 同时输出到控制台（可选） -->
+            <appender-ref ref="Console"/>
+        </logger>
+        <logger name="org.gms.client.creator" level="INFO" additivity="false">
+            <appender-ref ref="characterFile"/> <!-- 定向到专属日志文件，改 -->
+            <appender-ref ref="defaultFile"/> <!-- 同时输出到控制台（可选） -->
+            <appender-ref ref="Console"/>
+        </logger>
+        <logger name="org.gms.net.server.channel.handlers.GiveFameHandler" level="INFO" additivity="false">
+            <appender-ref ref="characterFile"/> <!-- 定向到专属日志文件，改 -->
+            <appender-ref ref="defaultFile"/> <!-- 同时输出到控制台（可选） -->
+            <appender-ref ref="Console"/>
+        </logger>
+        <logger name="org.gms.service.NameChangeService" level="INFO" additivity="false">
+            <appender-ref ref="characterFile"/> <!-- 定向到专属日志文件，改 -->
+            <appender-ref ref="defaultFile"/> <!-- 同时输出到控制台（可选） -->
+            <appender-ref ref="Console"/>
+        </logger>
+        <logger name="org.gms.server.SystemRescue" level="INFO" additivity="false">
+            <appender-ref ref="characterFile"/> <!-- 定向到专属日志文件，改 -->
+            <appender-ref ref="defaultFile"/> <!-- 同时输出到控制台（可选） -->
+            <appender-ref ref="Console"/>
+        </logger>
+        <logger name="org.gms.server.maps.MapleMap" level="INFO" additivity="false">
+            <appender-ref ref="characterFile"/> <!-- 定向到专属日志文件，改 -->
+            <appender-ref ref="defaultFile"/> <!-- 同时输出到控制台（可选） -->
+            <appender-ref ref="Console"/>
+        </logger>
+
+        <!-- 4.封包日志控制 name关联 -->
+        <logger name="org.gms.client.Client" level="INFO" additivity="false">
+            <appender-ref ref="rcvPFile"/> <!-- 定向到专属日志文件，改 -->
+            <appender-ref ref="defaultFile"/> <!-- 同时输出到控制台（可选） -->
+            <appender-ref ref="Console"/>
+        </logger>
+
+        <!-- 5.封号日志控制 name关联 -->
+        <logger name="org.gms.client.autoban" level="INFO" additivity="false">
+            <appender-ref ref="autoBanFile"/> <!-- 定向到专属日志文件，改 -->
+            <appender-ref ref="defaultFile"/> <!-- 同时输出到控制台（可选） -->
+            <appender-ref ref="Console"/>
+        </logger>
+        <logger name="org.gms.client.inventory.manipulator.InventoryManipulator" level="INFO" additivity="false">
+            <appender-ref ref="autoBanFile"/> <!-- 定向到专属日志文件，改 -->
+            <appender-ref ref="defaultFile"/> <!-- 同时输出到控制台（可选） -->
+            <appender-ref ref="Console"/>
+        </logger>
+        <logger name="org.gms.net.server.channel.handlers.AbstractDealDamageHandler" level="INFO" additivity="false">
+            <appender-ref ref="autoBanFile"/> <!-- 定向到专属日志文件，改 -->
+            <appender-ref ref="defaultFile"/> <!-- 同时输出到控制台（可选） -->
+            <appender-ref ref="Console"/>
+        </logger>
+
+        <!-- 6.命令日志控制 name关联 -->
+        <logger name="org.gms.client.command" level="INFO" additivity="false">
+            <appender-ref ref="commandFile"/> <!-- 定向到专属日志文件，改 -->
+            <appender-ref ref="defaultFile"/> <!-- 同时输出到控制台（可选） -->
+            <appender-ref ref="Console"/>
+        </logger>
+        <logger name="org.gms.service.GiveService" level="INFO" additivity="false">
+            <appender-ref ref="commandFile"/> <!-- 定向到专属日志文件，改 -->
+            <appender-ref ref="defaultFile"/> <!-- 同时输出到控制台（可选） -->
+            <appender-ref ref="Console"/>
+        </logger>
+
+        <!-- 7.聊天日志控制 name关联 -->
+        <logger name="org.gms.server.ChatLogger" level="INFO" additivity="false">
+            <appender-ref ref="chatFile"/> <!-- 定向到专属日志文件，改 -->
+            <appender-ref ref="defaultFile"/> <!-- 同时输出到控制台（可选） -->
+            <appender-ref ref="Console"/>
+        </logger>
+
+        <!-- 8.交易日志控制 name关联 -->
+        <logger name="org.gms.server.Trade" level="INFO" additivity="false">
+            <appender-ref ref="tradeFile"/> <!-- 定向到专属日志文件，改 -->
+            <appender-ref ref="defaultFile"/> <!-- 同时输出到控制台（可选） -->
+            <appender-ref ref="Console"/>
+        </logger>
+        <logger name="org.gms.net.server.channel.handlers.PlayerInteractionHandler" level="INFO" additivity="false">
+            <appender-ref ref="tradeFile"/> <!-- 定向到专属日志文件，改 -->
+            <appender-ref ref="defaultFile"/> <!-- 同时输出到控制台（可选） -->
+            <appender-ref ref="Console"/>
+        </logger>
+
+        <!-- 9.抽奖日志控制 name关联 -->
+        <logger name="org.gms.server.gachapon.Gachapon" level="INFO" additivity="false">
+            <appender-ref ref="gachaponFile"/> <!-- 定向到专属日志文件，改 -->
+            <appender-ref ref="defaultFile"/> <!-- 同时输出到控制台（可选） -->
+            <appender-ref ref="Console"/>
+        </logger>
+
+        <!-- 10.商城日志控制 name关联 -->
+        <logger name="org.gms.net.server.channel.handlers.CashOperationHandler" level="INFO" additivity="false">
+            <appender-ref ref="cashshopFile"/> <!-- 定向到专属日志文件，改 -->
+            <appender-ref ref="defaultFile"/> <!-- 同时输出到控制台（可选） -->
+            <appender-ref ref="Console"/>
+        </logger>
+
+        <!-- 第三方框架日志控制 -->
+        <logger name="com.alibaba.druid" level="ERROR">
+            <appender-ref ref="Console"/>
+            <appender-ref ref="defaultFile"/>
+        </logger>
+        <logger name="org.flywaydb" level="ERROR">
+            <appender-ref ref="Console"/>
+            <appender-ref ref="defaultFile"/>
+        </logger>
+
+        <!-- 其他所有日志：输出到默认日志 -->
+        <root level="${output_log_level}">
+            <appender-ref ref="defaultFile"/>
+            <appender-ref ref="Console"/>
+        </root>
+
+    </loggers>
+
+
+</configuration>
+
+        <!--<?xml version="1.0" encoding="GBK"?>-->
+        <!--<configuration status="ERROR" monitorInterval="300">-->
+
+        <!--    <Properties>-->
+        <!--        <property name="basePath">logs</property>-->
+        <!--        <property name="console_log_pattern">%d{yyyy-MM-dd HH:mm:ss.SSS} [%5level] ==> %m%n</property>-->
+        <!--        <property name="log_pattern">%d{yyyy-MM-dd HH:mm:ss.SSS} [%5level] ==> %m%n</property>-->
+        <!--        <property name="every_file_size">10MB</property>-->
+        <!--        <property name="rolling_fileName">${basePath}/out.log</property>-->
+        <!--        <property name="rolling_filePattern">${basePath}/%d{yyyyMMdd}/out%i.log</property>-->
+        <!--        <property name="rolling_max">10</property>-->
+        <!--        <property name="rolling_timeInterval">1</property>-->
+        <!--        <property name="rolling_timeModulate">true</property>-->
+        <!--        <property name="console_print_level">DEBUG</property>-->
+        <!--        <property name="file_print_level">DEBUG</property>-->
+        <!--        <property name="output_log_level">INFO</property>-->
+        <!--    </Properties>-->
+
+        <!--    <appenders>-->
+        <!--        <Console name="Console" target="SYSTEM_OUT">-->
+        <!--            <ThresholdFilter level="${console_print_level}" onMatch="ACCEPT" onMismatch="DENY"/>-->
+        <!--            <PatternLayout pattern="${console_log_pattern}"/>-->
+        <!--        </Console>-->
+
+        <!--        <RollingFile name="RollingFile" fileName="${rolling_fileName}" filePattern="${rolling_filePattern}">-->
+        <!--            <ThresholdFilter level="${file_print_level}" onMatch="ACCEPT" onMismatch="DENY"/>-->
+        <!--            <PatternLayout pattern="${log_pattern}"/>-->
+        <!--            <Policies>-->
+        <!--                <TimeBasedTriggeringPolicy interval="${rolling_timeInterval}" modulate="true"/>-->
+        <!--                <SizeBasedTriggeringPolicy size="${every_file_size}"/>-->
+        <!--            </Policies>-->
+        <!--            <DefaultRolloverStrategy max="${rolling_max}">-->
+        <!--                <Delete basePath="${basePath}" maxDepth="2">-->
+        <!--                    <IfLastModified age="${age}"/>-->
+        <!--                    <IfAccumulatedFileSize exceeds="${exceeds}" />-->
+        <!--                </Delete>-->
+        <!--            </DefaultRolloverStrategy>-->
+        <!--        </RollingFile>-->
+        <!--    </appenders>-->
+
+        <!--    <loggers>-->
+        <!--        &lt;!&ndash; 降低 Druid 的日志级别 &ndash;&gt;-->
+        <!--        <Logger name="com.alibaba.druid" level="ERROR">-->
+        <!--            <AppenderRef ref="Console"/>-->
+        <!--        </Logger>-->
+
+        <!--        &lt;!&ndash; 降低 flyway 的日志级别 &ndash;&gt;-->
+        <!--        <Logger name="org.flywaydb" level="ERROR">-->
+        <!--            <AppenderRef ref="Console"/>-->
+        <!--        </Logger>-->
+
+        <!--        <root level="${output_log_level}">-->
+        <!--            <appender-ref ref="RollingFile"/>-->
+        <!--            <appender-ref ref="Console"/>-->
+        <!--        </root>-->
+        <!--    </loggers>-->
+
+        <!--</configuration>-->

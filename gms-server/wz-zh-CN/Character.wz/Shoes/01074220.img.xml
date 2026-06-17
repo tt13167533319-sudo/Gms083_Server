@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="01074220.img">
+<imgdir name="info">
+<int name="cash" value="1"/>
+<int name="cashTradeBlock" value="1"/>
+<canvas name="icon" width="34" height="35">
+<vector name="origin" x="0" y="33"/>
+<int name="z" value="0"/>
+</canvas>
+<canvas name="iconRaw" width="34" height="35">
+<vector name="origin" x="0" y="33"/>
+<int name="z" value="0"/>
+</canvas>
+<string name="islot" value="Cp"/>
+<int name="magicLayerWz2" value="1"/>
+<int name="noMoveToLocker" value="1"/>
+<int name="reqJob" value="0"/>
+<int name="reqLevel" value="0"/>
+<string name="vslot" value="Cp"/>
+</imgdir>
+</imgdir>

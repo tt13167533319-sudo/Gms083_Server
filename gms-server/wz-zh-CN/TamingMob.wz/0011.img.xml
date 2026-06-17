@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="0011.img">
+<imgdir name="info">
+<int name="fatigue" value="3"/>
+<float name="fs" value="10.0"/>
+<int name="jump" value="140"/>
+<int name="speed" value="210"/>
+<float name="swim" value="100.0"/>
+</imgdir>
+</imgdir>

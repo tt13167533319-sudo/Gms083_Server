@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="EULA.img">
+<imgdir name="EULA">
+<string name="Text00" value="#e《童心大家庭》规则声明#n\r\n\r\n"/>
+<string name="Text01" value="#e本游戏禁止一切外挂、脚本等三方辅助工具，一经发现永久封停。\r\n\r\n\r\n"/>
+<string name="Text02" value="- 童心开发团队 \r\n"/>
+</imgdir>
+<imgdir name="Version">
+<int name="Number" value="1"/>
+</imgdir>
+</imgdir>

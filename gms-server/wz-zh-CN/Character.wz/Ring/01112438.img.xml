@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="01112438.img">
+<imgdir name="info">
+<int name="cash" value="0"/>
+<canvas name="icon" width="33" height="30">
+<vector name="origin" x="1" y="31"/>
+</canvas>
+<canvas name="iconRaw" width="33" height="29">
+<vector name="origin" x="1" y="31"/>
+</canvas>
+<int name="incDEX" value="4"/>
+<int name="incINT" value="4"/>
+<int name="incLUK" value="4"/>
+<int name="incMDD" value="100"/>
+<int name="incMHP" value="60"/>
+<int name="incMMP" value="60"/>
+<int name="incPDD" value="100"/>
+<int name="incSTR" value="4"/>
+<string name="islot" value="Ri"/>
+<int name="price" value="32000"/>
+<int name="reqJob" value="0"/>
+<int name="reqLevel" value="107"/>
+<string name="vslot" value="Ri"/>
+</imgdir>
+</imgdir>

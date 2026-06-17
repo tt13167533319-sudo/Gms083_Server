@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="01984169.img">
+<imgdir name="info">
+<canvas name="icon" width="4" height="4">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="0"/>
+</canvas>
+<canvas name="iconRaw" width="4" height="4">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="0"/>
+</canvas>
+</imgdir>
+<imgdir name="sit">
+<imgdir name="0">
+<canvas name="tamingMobRear" width="4" height="4">
+<vector name="origin" x="2" y="2"/>
+<string name="z" value="tamingMobRear"/>
+<imgdir name="map">
+<vector name="navel" x="65" y="-105"/>
+</imgdir>
+<vector name="lt" x="-50" y="-50"/>
+<vector name="rb" x="50" y="0"/>
+</canvas>
+<string name="forceCharacterAction" value="sit"/>
+<int name="forceCharacterActionFrameIndex" value="0"/>
+</imgdir>
+</imgdir>
+</imgdir>

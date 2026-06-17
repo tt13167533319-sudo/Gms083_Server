@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="CashPackage.img">
+<imgdir name="9100000">
+<imgdir name="SN">
+<int name="0" value="20000087"/>
+<int name="1" value="20400061"/>
+<int name="2" value="20500059"/>
+<int name="3" value="20600038"/>
+<int name="4" value="20700005"/>
+<int name="5" value="20100012"/>
+<int name="6" value="30100013"/>
+</imgdir>
+</imgdir>
+</imgdir>

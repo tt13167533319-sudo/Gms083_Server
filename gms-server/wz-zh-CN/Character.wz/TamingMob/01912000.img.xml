@@ -1,0 +1,2525 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="01912000.img">
+<imgdir name="1902000">
+<imgdir name="fly">
+<imgdir name="0">
+<canvas name="0" width="45" height="53">
+<vector name="origin" x="13" y="65"/>
+<imgdir name="map">
+<vector name="navel" x="6" y="-61"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="22" height="11">
+<vector name="origin" x="-3" y="70"/>
+<imgdir name="map">
+<vector name="navel" x="6" y="-61"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="0" width="45" height="53">
+<vector name="origin" x="14" y="65"/>
+<imgdir name="map">
+<vector name="navel" x="5" y="-61"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="22" height="11">
+<vector name="origin" x="-2" y="70"/>
+<imgdir name="map">
+<vector name="navel" x="5" y="-61"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="jump">
+<imgdir name="0">
+<canvas name="0" width="45" height="53">
+<vector name="origin" x="13" y="57"/>
+<imgdir name="map">
+<vector name="navel" x="6" y="-53"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="22" height="11">
+<vector name="origin" x="-3" y="62"/>
+<imgdir name="map">
+<vector name="navel" x="6" y="-53"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="ladder">
+<imgdir name="0">
+<canvas name="0" width="47" height="35">
+<vector name="origin" x="22" y="53"/>
+<imgdir name="map">
+<vector name="navel" x="2" y="-23"/>
+</imgdir>
+<string name="z" value="backSaddle"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="0" width="47" height="35">
+<vector name="origin" x="22" y="53"/>
+<imgdir name="map">
+<vector name="navel" x="2" y="-23"/>
+</imgdir>
+<string name="z" value="backSaddle"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="prone">
+<imgdir name="0">
+<canvas name="0" width="45" height="51">
+<vector name="origin" x="16" y="51"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-47"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="22" height="11">
+<vector name="origin" x="0" y="56"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-47"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="rope">
+<imgdir name="0">
+<canvas name="0" width="47" height="35">
+<vector name="origin" x="22" y="53"/>
+<imgdir name="map">
+<vector name="navel" x="2" y="-23"/>
+</imgdir>
+<string name="z" value="backSaddle"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="0" width="47" height="35">
+<vector name="origin" x="22" y="53"/>
+<imgdir name="map">
+<vector name="navel" x="2" y="-23"/>
+</imgdir>
+<string name="z" value="backSaddle"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="stand1">
+<imgdir name="0">
+<canvas name="0" width="45" height="52">
+<vector name="origin" x="16" y="55"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-51"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="22" height="11">
+<vector name="origin" x="0" y="60"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-51"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="0" width="45" height="52">
+<vector name="origin" x="16" y="56"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-52"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="22" height="11">
+<vector name="origin" x="0" y="61"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-52"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="0" width="45" height="52">
+<vector name="origin" x="16" y="57"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-53"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="22" height="11">
+<vector name="origin" x="0" y="62"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-53"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="3">
+<canvas name="0" width="45" height="52">
+<vector name="origin" x="16" y="58"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-54"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="22" height="11">
+<vector name="origin" x="0" y="63"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-54"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="4">
+<canvas name="0" width="45" height="52">
+<vector name="origin" x="16" y="57"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-53"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="22" height="11">
+<vector name="origin" x="0" y="62"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-53"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="5">
+<canvas name="0" width="45" height="52">
+<vector name="origin" x="16" y="56"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-52"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="22" height="11">
+<vector name="origin" x="0" y="61"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-52"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="stand2">
+<imgdir name="0">
+<uol name="0" value="../../stand1/0/0"/>
+<uol name="1" value="../../stand1/0/1"/>
+</imgdir>
+<imgdir name="1">
+<uol name="0" value="../../stand1/1/0"/>
+<uol name="1" value="../../stand1/1/1"/>
+</imgdir>
+<imgdir name="2">
+<uol name="0" value="../../stand1/2/0"/>
+<uol name="1" value="../../stand1/2/1"/>
+</imgdir>
+<imgdir name="3">
+<uol name="0" value="../../stand1/3/0"/>
+<uol name="1" value="../../stand1/3/1"/>
+</imgdir>
+<imgdir name="4">
+<uol name="0" value="../../stand1/4/0"/>
+<uol name="1" value="../../stand1/4/1"/>
+</imgdir>
+<imgdir name="5">
+<uol name="0" value="../../stand1/5/0"/>
+<uol name="1" value="../../stand1/5/1"/>
+</imgdir>
+</imgdir>
+<imgdir name="tired">
+<imgdir name="0">
+<canvas name="0" width="44" height="55">
+<vector name="origin" x="15" y="55"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-51"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="22" height="11">
+<vector name="origin" x="-1" y="60"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-51"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="walk1">
+<imgdir name="0">
+<canvas name="0" width="45" height="53">
+<vector name="origin" x="16" y="57"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-53"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="22" height="11">
+<vector name="origin" x="0" y="62"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-53"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="0" width="45" height="51">
+<vector name="origin" x="16" y="56"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-52"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="22" height="11">
+<vector name="origin" x="0" y="61"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-52"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="0" width="45" height="53">
+<vector name="origin" x="16" y="57"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-53"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="22" height="11">
+<vector name="origin" x="0" y="62"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-53"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="3">
+<canvas name="0" width="45" height="51">
+<vector name="origin" x="16" y="56"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-52"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="22" height="11">
+<vector name="origin" x="0" y="61"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-52"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="walk2">
+<imgdir name="0">
+<uol name="0" value="../../walk1/0/0"/>
+<uol name="1" value="../../walk1/0/1"/>
+</imgdir>
+<imgdir name="1">
+<uol name="0" value="../../walk1/1/0"/>
+<uol name="1" value="../../walk1/1/1"/>
+</imgdir>
+<imgdir name="2">
+<uol name="0" value="../../walk1/2/0"/>
+<uol name="1" value="../../walk1/2/1"/>
+</imgdir>
+<imgdir name="3">
+<uol name="0" value="../../walk1/3/0"/>
+<uol name="1" value="../../walk1/3/1"/>
+</imgdir>
+</imgdir>
+</imgdir>
+<imgdir name="1902001">
+<imgdir name="fly">
+<imgdir name="0">
+<canvas name="0" width="44" height="51">
+<vector name="origin" x="13" y="63"/>
+<imgdir name="map">
+<vector name="navel" x="6" y="-59"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="22" height="11">
+<vector name="origin" x="-3" y="68"/>
+<imgdir name="map">
+<vector name="navel" x="6" y="-59"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="0" width="44" height="51">
+<vector name="origin" x="14" y="64"/>
+<imgdir name="map">
+<vector name="navel" x="5" y="-60"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="22" height="11">
+<vector name="origin" x="-2" y="69"/>
+<imgdir name="map">
+<vector name="navel" x="5" y="-60"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="jump">
+<imgdir name="0">
+<canvas name="0" width="44" height="51">
+<vector name="origin" x="13" y="57"/>
+<imgdir name="map">
+<vector name="navel" x="6" y="-53"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="22" height="11">
+<vector name="origin" x="-3" y="62"/>
+<imgdir name="map">
+<vector name="navel" x="6" y="-53"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="ladder">
+<imgdir name="0">
+<canvas name="0" width="47" height="35">
+<vector name="origin" x="22" y="54"/>
+<imgdir name="map">
+<vector name="navel" x="2" y="-24"/>
+</imgdir>
+<string name="z" value="backSaddle"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="0" width="47" height="35">
+<vector name="origin" x="22" y="54"/>
+<imgdir name="map">
+<vector name="navel" x="2" y="-24"/>
+</imgdir>
+<string name="z" value="backSaddle"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="prone">
+<imgdir name="0">
+<canvas name="0" width="44" height="52">
+<vector name="origin" x="18" y="51"/>
+<imgdir name="map">
+<vector name="navel" x="1" y="-47"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="22" height="11">
+<vector name="origin" x="2" y="56"/>
+<imgdir name="map">
+<vector name="navel" x="1" y="-47"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="rope">
+<imgdir name="0">
+<canvas name="0" width="47" height="35">
+<vector name="origin" x="22" y="56"/>
+<imgdir name="map">
+<vector name="navel" x="2" y="-24"/>
+</imgdir>
+<string name="z" value="backSaddle"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="0" width="47" height="35">
+<vector name="origin" x="22" y="54"/>
+<imgdir name="map">
+<vector name="navel" x="2" y="-24"/>
+</imgdir>
+<string name="z" value="backSaddle"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="stand1">
+<imgdir name="0">
+<canvas name="0" width="44" height="52">
+<vector name="origin" x="16" y="57"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-53"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="22" height="11">
+<vector name="origin" x="0" y="62"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-53"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="0" width="44" height="52">
+<vector name="origin" x="16" y="58"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-54"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="22" height="11">
+<vector name="origin" x="0" y="63"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-54"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="0" width="44" height="53">
+<vector name="origin" x="16" y="59"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-55"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="22" height="11">
+<vector name="origin" x="0" y="64"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-55"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="3">
+<canvas name="0" width="44" height="52">
+<vector name="origin" x="16" y="58"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-54"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="22" height="11">
+<vector name="origin" x="0" y="63"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-54"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="4">
+<canvas name="0" width="44" height="52">
+<vector name="origin" x="16" y="57"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-53"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="22" height="11">
+<vector name="origin" x="0" y="62"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-53"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="5">
+<canvas name="0" width="44" height="51">
+<vector name="origin" x="16" y="56"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-52"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="22" height="11">
+<vector name="origin" x="0" y="61"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-52"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="stand2">
+<imgdir name="0">
+<uol name="0" value="../../stand1/0/0"/>
+<uol name="1" value="../../stand1/0/1"/>
+</imgdir>
+<imgdir name="1">
+<uol name="0" value="../../stand1/1/0"/>
+<uol name="1" value="../../stand1/1/1"/>
+</imgdir>
+<imgdir name="2">
+<uol name="0" value="../../stand1/2/0"/>
+<uol name="1" value="../../stand1/2/1"/>
+</imgdir>
+<imgdir name="3">
+<uol name="0" value="../../stand1/3/0"/>
+<uol name="1" value="../../stand1/3/1"/>
+</imgdir>
+<imgdir name="4">
+<uol name="0" value="../../stand1/4/0"/>
+<uol name="1" value="../../stand1/4/1"/>
+</imgdir>
+<imgdir name="5">
+<uol name="0" value="../../stand1/5/0"/>
+<uol name="1" value="../../stand1/5/1"/>
+</imgdir>
+</imgdir>
+<imgdir name="tired">
+<imgdir name="0">
+<canvas name="0" width="44" height="46">
+<vector name="origin" x="12" y="54"/>
+<imgdir name="map">
+<vector name="navel" x="7" y="-50"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="22" height="11">
+<vector name="origin" x="-4" y="59"/>
+<imgdir name="map">
+<vector name="navel" x="7" y="-50"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="walk1">
+<imgdir name="0">
+<canvas name="0" width="44" height="50">
+<vector name="origin" x="14" y="58"/>
+<imgdir name="map">
+<vector name="navel" x="5" y="-54"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="22" height="11">
+<vector name="origin" x="-2" y="63"/>
+<imgdir name="map">
+<vector name="navel" x="5" y="-54"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="0" width="44" height="51">
+<vector name="origin" x="15" y="59"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-55"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="22" height="11">
+<vector name="origin" x="-1" y="64"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-55"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="0" width="44" height="49">
+<vector name="origin" x="15" y="58"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-54"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="22" height="11">
+<vector name="origin" x="-1" y="63"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-54"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="3">
+<canvas name="0" width="44" height="50">
+<vector name="origin" x="14" y="57"/>
+<imgdir name="map">
+<vector name="navel" x="5" y="-53"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="22" height="11">
+<vector name="origin" x="-2" y="62"/>
+<imgdir name="map">
+<vector name="navel" x="5" y="-53"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="4">
+<canvas name="0" width="44" height="49">
+<vector name="origin" x="12" y="57"/>
+<imgdir name="map">
+<vector name="navel" x="7" y="-53"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="22" height="11">
+<vector name="origin" x="-4" y="62"/>
+<imgdir name="map">
+<vector name="navel" x="7" y="-53"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="5">
+<canvas name="0" width="44" height="48">
+<vector name="origin" x="13" y="58"/>
+<imgdir name="map">
+<vector name="navel" x="6" y="-54"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="22" height="11">
+<vector name="origin" x="-3" y="63"/>
+<imgdir name="map">
+<vector name="navel" x="6" y="-54"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="walk2">
+<imgdir name="0">
+<uol name="0" value="../../walk1/0/0"/>
+<uol name="1" value="../../walk1/0/1"/>
+</imgdir>
+<imgdir name="1">
+<uol name="0" value="../../walk1/1/0"/>
+<uol name="1" value="../../walk1/1/1"/>
+</imgdir>
+<imgdir name="2">
+<uol name="0" value="../../walk1/2/0"/>
+<uol name="1" value="../../walk1/2/1"/>
+</imgdir>
+<imgdir name="3">
+<uol name="0" value="../../walk1/3/0"/>
+<uol name="1" value="../../walk1/3/1"/>
+</imgdir>
+<imgdir name="4">
+<uol name="0" value="../../walk1/4/0"/>
+<uol name="1" value="../../walk1/4/1"/>
+</imgdir>
+<imgdir name="5">
+<uol name="0" value="../../walk1/5/0"/>
+<uol name="1" value="../../walk1/5/1"/>
+</imgdir>
+</imgdir>
+</imgdir>
+<imgdir name="1902002">
+<imgdir name="fly">
+<imgdir name="0">
+<canvas name="0" width="42" height="54">
+<vector name="origin" x="21" y="27"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-24"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="71" height="30">
+<vector name="origin" x="35" y="15"/>
+<imgdir name="map">
+<vector name="navel" x="22" y="-11"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="0" width="42" height="54">
+<vector name="origin" x="21" y="27"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-24"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="71" height="30">
+<vector name="origin" x="35" y="15"/>
+<imgdir name="map">
+<vector name="navel" x="22" y="-11"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="0" width="42" height="54">
+<vector name="origin" x="21" y="27"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-23"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="71" height="30">
+<vector name="origin" x="35" y="15"/>
+<imgdir name="map">
+<vector name="navel" x="22" y="-10"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="jump">
+<imgdir name="0">
+<canvas name="0" width="42" height="54">
+<vector name="origin" x="21" y="27"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-23"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="65" height="29">
+<vector name="origin" x="32" y="14"/>
+<imgdir name="map">
+<vector name="navel" x="19" y="-9"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="ladder">
+<imgdir name="0">
+<canvas name="0" width="36" height="40">
+<vector name="origin" x="18" y="20"/>
+<imgdir name="map">
+<vector name="navel" x="-1" y="-4"/>
+</imgdir>
+<string name="z" value="backSaddle"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="0" width="36" height="40">
+<vector name="origin" x="18" y="20"/>
+<imgdir name="map">
+<vector name="navel" x="-1" y="-4"/>
+</imgdir>
+<string name="z" value="backSaddle"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="prone">
+<imgdir name="0">
+<canvas name="0" width="42" height="43">
+<vector name="origin" x="21" y="21"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-17"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="59" height="31">
+<vector name="origin" x="29" y="15"/>
+<imgdir name="map">
+<vector name="navel" x="16" y="-10"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="rope">
+<imgdir name="0">
+<canvas name="0" width="36" height="40">
+<vector name="origin" x="18" y="20"/>
+<imgdir name="map">
+<vector name="navel" x="-1" y="0"/>
+</imgdir>
+<string name="z" value="backSaddle"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="0" width="36" height="40">
+<vector name="origin" x="18" y="20"/>
+<imgdir name="map">
+<vector name="navel" x="-1" y="-2"/>
+</imgdir>
+<string name="z" value="backSaddle"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="stand1">
+<imgdir name="0">
+<canvas name="0" width="42" height="54">
+<vector name="origin" x="21" y="27"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-23"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="71" height="30">
+<vector name="origin" x="35" y="15"/>
+<imgdir name="map">
+<vector name="navel" x="22" y="-10"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="0" width="42" height="54">
+<vector name="origin" x="21" y="27"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-23"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="71" height="30">
+<vector name="origin" x="35" y="15"/>
+<imgdir name="map">
+<vector name="navel" x="22" y="-10"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="0" width="42" height="54">
+<vector name="origin" x="21" y="27"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-23"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="71" height="30">
+<vector name="origin" x="35" y="15"/>
+<imgdir name="map">
+<vector name="navel" x="22" y="-10"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="3">
+<canvas name="0" width="42" height="54">
+<vector name="origin" x="21" y="27"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-23"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="71" height="30">
+<vector name="origin" x="35" y="15"/>
+<imgdir name="map">
+<vector name="navel" x="22" y="-10"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="4">
+<canvas name="0" width="42" height="54">
+<vector name="origin" x="21" y="27"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-23"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="71" height="30">
+<vector name="origin" x="35" y="15"/>
+<imgdir name="map">
+<vector name="navel" x="22" y="-10"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="5">
+<canvas name="0" width="42" height="54">
+<vector name="origin" x="21" y="27"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-23"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="71" height="30">
+<vector name="origin" x="35" y="15"/>
+<imgdir name="map">
+<vector name="navel" x="22" y="-10"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="6">
+<canvas name="0" width="42" height="54">
+<vector name="origin" x="21" y="27"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-23"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="71" height="30">
+<vector name="origin" x="35" y="15"/>
+<imgdir name="map">
+<vector name="navel" x="22" y="-10"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="7">
+<canvas name="0" width="42" height="54">
+<vector name="origin" x="21" y="27"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-23"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="71" height="30">
+<vector name="origin" x="35" y="15"/>
+<imgdir name="map">
+<vector name="navel" x="22" y="-10"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="8">
+<canvas name="0" width="42" height="54">
+<vector name="origin" x="21" y="27"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-23"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="71" height="30">
+<vector name="origin" x="35" y="15"/>
+<imgdir name="map">
+<vector name="navel" x="22" y="-10"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="9">
+<canvas name="0" width="42" height="54">
+<vector name="origin" x="21" y="27"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-23"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="71" height="30">
+<vector name="origin" x="35" y="15"/>
+<imgdir name="map">
+<vector name="navel" x="22" y="-10"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="10">
+<canvas name="0" width="42" height="54">
+<vector name="origin" x="21" y="27"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-23"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="71" height="30">
+<vector name="origin" x="35" y="15"/>
+<imgdir name="map">
+<vector name="navel" x="22" y="-10"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="11">
+<canvas name="0" width="42" height="54">
+<vector name="origin" x="21" y="27"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-23"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="71" height="30">
+<vector name="origin" x="35" y="15"/>
+<imgdir name="map">
+<vector name="navel" x="22" y="-10"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="stand2">
+<imgdir name="0">
+<uol name="0" value="../../stand1/0/0"/>
+<uol name="1" value="../../stand1/0/1"/>
+</imgdir>
+<imgdir name="1">
+<uol name="0" value="../../stand1/1/0"/>
+<uol name="1" value="../../stand1/1/1"/>
+</imgdir>
+<imgdir name="2">
+<uol name="0" value="../../stand1/2/0"/>
+<uol name="1" value="../../stand1/2/1"/>
+</imgdir>
+<imgdir name="3">
+<uol name="0" value="../../stand1/3/0"/>
+<uol name="1" value="../../stand1/3/1"/>
+</imgdir>
+<imgdir name="4">
+<uol name="0" value="../../stand1/4/0"/>
+<uol name="1" value="../../stand1/4/1"/>
+</imgdir>
+<imgdir name="5">
+<uol name="0" value="../../stand1/5/0"/>
+<uol name="1" value="../../stand1/5/1"/>
+</imgdir>
+<imgdir name="6">
+<uol name="0" value="../../stand1/6/0"/>
+<uol name="1" value="../../stand1/6/1"/>
+</imgdir>
+<imgdir name="7">
+<uol name="0" value="../../stand1/7/0"/>
+<uol name="1" value="../../stand1/7/1"/>
+</imgdir>
+<imgdir name="8">
+<uol name="0" value="../../stand1/8/0"/>
+<uol name="1" value="../../stand1/8/1"/>
+</imgdir>
+<imgdir name="9">
+<uol name="0" value="../../stand1/9/0"/>
+<uol name="1" value="../../stand1/9/1"/>
+</imgdir>
+<imgdir name="10">
+<uol name="0" value="../../stand1/10/0"/>
+<uol name="1" value="../../stand1/10/1"/>
+</imgdir>
+<imgdir name="11">
+<uol name="0" value="../../stand1/11/0"/>
+<uol name="1" value="../../stand1/11/1"/>
+</imgdir>
+</imgdir>
+<imgdir name="tired">
+<imgdir name="0">
+<canvas name="0" width="42" height="43">
+<vector name="origin" x="21" y="21"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-17"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="26" height="11">
+<vector name="origin" x="13" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="-1" y="0"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="walk1">
+<imgdir name="0">
+<canvas name="0" width="42" height="54">
+<vector name="origin" x="21" y="27"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-23"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="71" height="30">
+<vector name="origin" x="35" y="15"/>
+<imgdir name="map">
+<vector name="navel" x="22" y="-10"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="0" width="42" height="54">
+<vector name="origin" x="21" y="27"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-23"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="71" height="30">
+<vector name="origin" x="35" y="15"/>
+<imgdir name="map">
+<vector name="navel" x="22" y="-10"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="0" width="42" height="54">
+<vector name="origin" x="21" y="27"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-23"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="71" height="30">
+<vector name="origin" x="35" y="15"/>
+<imgdir name="map">
+<vector name="navel" x="21" y="-10"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="3">
+<canvas name="0" width="42" height="54">
+<vector name="origin" x="21" y="27"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-23"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="71" height="30">
+<vector name="origin" x="35" y="15"/>
+<imgdir name="map">
+<vector name="navel" x="22" y="-10"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="4">
+<canvas name="0" width="42" height="54">
+<vector name="origin" x="21" y="27"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-23"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="71" height="30">
+<vector name="origin" x="35" y="15"/>
+<imgdir name="map">
+<vector name="navel" x="22" y="-10"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+<imgdir name="5">
+<canvas name="0" width="42" height="54">
+<vector name="origin" x="21" y="27"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-23"/>
+</imgdir>
+<string name="z" value="saddleFront"/>
+</canvas>
+<canvas name="1" width="71" height="30">
+<vector name="origin" x="35" y="15"/>
+<imgdir name="map">
+<vector name="navel" x="22" y="-10"/>
+</imgdir>
+<string name="z" value="saddleRear"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="walk2">
+<imgdir name="0">
+<uol name="0" value="../../walk1/0/0"/>
+<uol name="1" value="../../walk1/0/1"/>
+</imgdir>
+<imgdir name="1">
+<uol name="0" value="../../walk1/1/0"/>
+<uol name="1" value="../../walk1/1/1"/>
+</imgdir>
+<imgdir name="2">
+<uol name="0" value="../../walk1/2/0"/>
+<uol name="1" value="../../walk1/2/1"/>
+</imgdir>
+<imgdir name="3">
+<uol name="0" value="../../walk1/3/0"/>
+<uol name="1" value="../../walk1/3/1"/>
+</imgdir>
+<imgdir name="4">
+<uol name="0" value="../../walk1/4/0"/>
+<uol name="1" value="../../walk1/4/1"/>
+</imgdir>
+<imgdir name="5">
+<uol name="0" value="../../walk1/5/0"/>
+<uol name="1" value="../../walk1/5/1"/>
+</imgdir>
+</imgdir>
+</imgdir>
+<imgdir name="1902003">
+</imgdir>
+<imgdir name="1902004">
+</imgdir>
+<imgdir name="1902008">
+</imgdir>
+<imgdir name="1902009">
+</imgdir>
+<imgdir name="1902010">
+</imgdir>
+<imgdir name="1902011">
+</imgdir>
+<imgdir name="1902012">
+</imgdir>
+<imgdir name="1902013">
+</imgdir>
+<imgdir name="1902014">
+</imgdir>
+<imgdir name="1902015">
+</imgdir>
+<imgdir name="1902016">
+</imgdir>
+<imgdir name="1902017">
+</imgdir>
+<imgdir name="1902018">
+</imgdir>
+<imgdir name="1902019">
+</imgdir>
+<imgdir name="1902020">
+</imgdir>
+<imgdir name="1902021">
+</imgdir>
+<imgdir name="1902022">
+</imgdir>
+<imgdir name="1902023">
+</imgdir>
+<imgdir name="1902024">
+</imgdir>
+<imgdir name="1902025">
+</imgdir>
+<imgdir name="1902026">
+</imgdir>
+<imgdir name="1902027">
+</imgdir>
+<imgdir name="1902028">
+</imgdir>
+<imgdir name="1902029">
+</imgdir>
+<imgdir name="1902030">
+</imgdir>
+<imgdir name="1902031">
+</imgdir>
+<imgdir name="1902032">
+</imgdir>
+<imgdir name="1902033">
+</imgdir>
+<imgdir name="1902034">
+</imgdir>
+<imgdir name="1902035">
+</imgdir>
+<imgdir name="1902036">
+</imgdir>
+<imgdir name="1902037">
+</imgdir>
+<imgdir name="1902038">
+</imgdir>
+<imgdir name="1902039">
+</imgdir>
+<imgdir name="1902040">
+</imgdir>
+<imgdir name="1902041">
+</imgdir>
+<imgdir name="1902042">
+</imgdir>
+<imgdir name="1902043">
+</imgdir>
+<imgdir name="1902044">
+</imgdir>
+<imgdir name="1902045">
+</imgdir>
+<imgdir name="1902046">
+</imgdir>
+<imgdir name="1902047">
+</imgdir>
+<imgdir name="1902048">
+</imgdir>
+<imgdir name="1902049">
+</imgdir>
+<imgdir name="1902050">
+</imgdir>
+<imgdir name="1902051">
+</imgdir>
+<imgdir name="1902052">
+</imgdir>
+<imgdir name="1902053">
+</imgdir>
+<imgdir name="1902054">
+</imgdir>
+<imgdir name="1902055">
+</imgdir>
+<imgdir name="1902056">
+</imgdir>
+<imgdir name="1902057">
+</imgdir>
+<imgdir name="1902058">
+</imgdir>
+<imgdir name="1902059">
+</imgdir>
+<imgdir name="1902060">
+</imgdir>
+<imgdir name="1902061">
+</imgdir>
+<imgdir name="1902062">
+</imgdir>
+<imgdir name="1902063">
+</imgdir>
+<imgdir name="1902100">
+</imgdir>
+<imgdir name="1902101">
+</imgdir>
+<imgdir name="1902102">
+</imgdir>
+<imgdir name="1902103">
+</imgdir>
+<imgdir name="1902104">
+</imgdir>
+<imgdir name="1902105">
+</imgdir>
+<imgdir name="1902106">
+</imgdir>
+<imgdir name="1902107">
+</imgdir>
+<imgdir name="1902108">
+</imgdir>
+<imgdir name="1902109">
+</imgdir>
+<imgdir name="1902110">
+</imgdir>
+<imgdir name="1902111">
+</imgdir>
+<imgdir name="1902112">
+</imgdir>
+<imgdir name="1902113">
+</imgdir>
+<imgdir name="1902114">
+</imgdir>
+<imgdir name="1902115">
+</imgdir>
+<imgdir name="1902116">
+</imgdir>
+<imgdir name="1902117">
+</imgdir>
+<imgdir name="1902118">
+</imgdir>
+<imgdir name="1902119">
+</imgdir>
+<imgdir name="1902120">
+</imgdir>
+<imgdir name="1902121">
+</imgdir>
+<imgdir name="1902122">
+</imgdir>
+<imgdir name="1902123">
+</imgdir>
+<imgdir name="1902124">
+</imgdir>
+<imgdir name="1902125">
+</imgdir>
+<imgdir name="1902126">
+</imgdir>
+<imgdir name="1902127">
+</imgdir>
+<imgdir name="1902128">
+</imgdir>
+<imgdir name="1902129">
+</imgdir>
+<imgdir name="1902130">
+</imgdir>
+<imgdir name="1902131">
+</imgdir>
+<imgdir name="1902132">
+</imgdir>
+<imgdir name="1902133">
+</imgdir>
+<imgdir name="1902134">
+</imgdir>
+<imgdir name="1902135">
+</imgdir>
+<imgdir name="1902136">
+</imgdir>
+<imgdir name="1902137">
+</imgdir>
+<imgdir name="1902138">
+</imgdir>
+<imgdir name="1902139">
+</imgdir>
+<imgdir name="1902140">
+</imgdir>
+<imgdir name="1902141">
+</imgdir>
+<imgdir name="1902142">
+</imgdir>
+<imgdir name="1902143">
+</imgdir>
+<imgdir name="1902144">
+</imgdir>
+<imgdir name="1902145">
+</imgdir>
+<imgdir name="1902146">
+</imgdir>
+<imgdir name="1902147">
+</imgdir>
+<imgdir name="1902148">
+</imgdir>
+<imgdir name="1902149">
+</imgdir>
+<imgdir name="1902150">
+</imgdir>
+<imgdir name="1902151">
+</imgdir>
+<imgdir name="1902152">
+</imgdir>
+<imgdir name="1902153">
+</imgdir>
+<imgdir name="1902154">
+</imgdir>
+<imgdir name="1902155">
+</imgdir>
+<imgdir name="1902156">
+</imgdir>
+<imgdir name="1902157">
+</imgdir>
+<imgdir name="1902158">
+</imgdir>
+<imgdir name="1902159">
+</imgdir>
+<imgdir name="1902160">
+</imgdir>
+<imgdir name="1902161">
+</imgdir>
+<imgdir name="1902162">
+</imgdir>
+<imgdir name="1902163">
+</imgdir>
+<imgdir name="1902200">
+</imgdir>
+<imgdir name="1902201">
+</imgdir>
+<imgdir name="1902202">
+</imgdir>
+<imgdir name="1902203">
+</imgdir>
+<imgdir name="1902204">
+</imgdir>
+<imgdir name="1902205">
+</imgdir>
+<imgdir name="1902206">
+</imgdir>
+<imgdir name="1902207">
+</imgdir>
+<imgdir name="1902208">
+</imgdir>
+<imgdir name="1902209">
+</imgdir>
+<imgdir name="1902210">
+</imgdir>
+<imgdir name="1902211">
+</imgdir>
+<imgdir name="1902212">
+</imgdir>
+<imgdir name="1902213">
+</imgdir>
+<imgdir name="1902214">
+</imgdir>
+<imgdir name="1902215">
+</imgdir>
+<imgdir name="1902216">
+</imgdir>
+<imgdir name="1902217">
+</imgdir>
+<imgdir name="1902218">
+</imgdir>
+<imgdir name="1902219">
+</imgdir>
+<imgdir name="1902220">
+</imgdir>
+<imgdir name="1902221">
+</imgdir>
+<imgdir name="1902222">
+</imgdir>
+<imgdir name="1902223">
+</imgdir>
+<imgdir name="1902224">
+</imgdir>
+<imgdir name="1902225">
+</imgdir>
+<imgdir name="1902226">
+</imgdir>
+<imgdir name="1902227">
+</imgdir>
+<imgdir name="1902228">
+</imgdir>
+<imgdir name="1902229">
+</imgdir>
+<imgdir name="1902230">
+</imgdir>
+<imgdir name="1902231">
+</imgdir>
+<imgdir name="1902232">
+</imgdir>
+<imgdir name="1902233">
+</imgdir>
+<imgdir name="1902234">
+</imgdir>
+<imgdir name="1902235">
+</imgdir>
+<imgdir name="1902236">
+</imgdir>
+<imgdir name="1902237">
+</imgdir>
+<imgdir name="1902238">
+</imgdir>
+<imgdir name="1902239">
+</imgdir>
+<imgdir name="1902240">
+</imgdir>
+<imgdir name="1902241">
+</imgdir>
+<imgdir name="1902242">
+</imgdir>
+<imgdir name="1902243">
+</imgdir>
+<imgdir name="1902244">
+</imgdir>
+<imgdir name="1902245">
+</imgdir>
+<imgdir name="1902246">
+</imgdir>
+<imgdir name="1902247">
+</imgdir>
+<imgdir name="1902248">
+</imgdir>
+<imgdir name="1902249">
+</imgdir>
+<imgdir name="1902250">
+</imgdir>
+<imgdir name="1902251">
+</imgdir>
+<imgdir name="1902252">
+</imgdir>
+<imgdir name="1902253">
+</imgdir>
+<imgdir name="1902254">
+</imgdir>
+<imgdir name="1902255">
+</imgdir>
+<imgdir name="1902256">
+</imgdir>
+<imgdir name="1902257">
+</imgdir>
+<imgdir name="1902258">
+</imgdir>
+<imgdir name="1902259">
+</imgdir>
+<imgdir name="1902260">
+</imgdir>
+<imgdir name="1902261">
+</imgdir>
+<imgdir name="1902262">
+</imgdir>
+<imgdir name="1902263">
+</imgdir>
+<imgdir name="1902300">
+</imgdir>
+<imgdir name="1902301">
+</imgdir>
+<imgdir name="1902302">
+</imgdir>
+<imgdir name="1902303">
+</imgdir>
+<imgdir name="1902304">
+</imgdir>
+<imgdir name="1902305">
+</imgdir>
+<imgdir name="1902306">
+</imgdir>
+<imgdir name="1902307">
+</imgdir>
+<imgdir name="1902308">
+</imgdir>
+<imgdir name="1902309">
+</imgdir>
+<imgdir name="1902310">
+</imgdir>
+<imgdir name="1902311">
+</imgdir>
+<imgdir name="1902312">
+</imgdir>
+<imgdir name="1902313">
+</imgdir>
+<imgdir name="1902314">
+</imgdir>
+<imgdir name="1902315">
+</imgdir>
+<imgdir name="1902316">
+</imgdir>
+<imgdir name="1902317">
+</imgdir>
+<imgdir name="1902318">
+</imgdir>
+<imgdir name="1902319">
+</imgdir>
+<imgdir name="1902320">
+</imgdir>
+<imgdir name="1902321">
+</imgdir>
+<imgdir name="1902322">
+</imgdir>
+<imgdir name="1902323">
+</imgdir>
+<imgdir name="1902324">
+</imgdir>
+<imgdir name="1902325">
+</imgdir>
+<imgdir name="1902326">
+</imgdir>
+<imgdir name="1902327">
+</imgdir>
+<imgdir name="1902328">
+</imgdir>
+<imgdir name="1902329">
+</imgdir>
+<imgdir name="1902330">
+</imgdir>
+<imgdir name="1902331">
+</imgdir>
+<imgdir name="1902332">
+</imgdir>
+<imgdir name="1902333">
+</imgdir>
+<imgdir name="1902334">
+</imgdir>
+<imgdir name="1902335">
+</imgdir>
+<imgdir name="1902336">
+</imgdir>
+<imgdir name="1902337">
+</imgdir>
+<imgdir name="1902338">
+</imgdir>
+<imgdir name="1902339">
+</imgdir>
+<imgdir name="1902340">
+</imgdir>
+<imgdir name="1902341">
+</imgdir>
+<imgdir name="1902342">
+</imgdir>
+<imgdir name="1902343">
+</imgdir>
+<imgdir name="1902344">
+</imgdir>
+<imgdir name="1902345">
+</imgdir>
+<imgdir name="1902346">
+</imgdir>
+<imgdir name="1902347">
+</imgdir>
+<imgdir name="1902348">
+</imgdir>
+<imgdir name="1902349">
+</imgdir>
+<imgdir name="1902350">
+</imgdir>
+<imgdir name="1902351">
+</imgdir>
+<imgdir name="1902352">
+</imgdir>
+<imgdir name="1902353">
+</imgdir>
+<imgdir name="1902354">
+</imgdir>
+<imgdir name="1902355">
+</imgdir>
+<imgdir name="1902356">
+</imgdir>
+<imgdir name="1902357">
+</imgdir>
+<imgdir name="1902358">
+</imgdir>
+<imgdir name="1902359">
+</imgdir>
+<imgdir name="1902360">
+</imgdir>
+<imgdir name="1902361">
+</imgdir>
+<imgdir name="1902362">
+</imgdir>
+<imgdir name="1902363">
+</imgdir>
+<imgdir name="1902400">
+</imgdir>
+<imgdir name="1902401">
+</imgdir>
+<imgdir name="1902402">
+</imgdir>
+<imgdir name="1902403">
+</imgdir>
+<imgdir name="1902404">
+</imgdir>
+<imgdir name="1902405">
+</imgdir>
+<imgdir name="1902406">
+</imgdir>
+<imgdir name="1902407">
+</imgdir>
+<imgdir name="1902408">
+</imgdir>
+<imgdir name="1902409">
+</imgdir>
+<imgdir name="1902410">
+</imgdir>
+<imgdir name="1902411">
+</imgdir>
+<imgdir name="1902412">
+</imgdir>
+<imgdir name="1902413">
+</imgdir>
+<imgdir name="1902414">
+</imgdir>
+<imgdir name="1902415">
+</imgdir>
+<imgdir name="1902416">
+</imgdir>
+<imgdir name="1902417">
+</imgdir>
+<imgdir name="1902418">
+</imgdir>
+<imgdir name="1902419">
+</imgdir>
+<imgdir name="1902420">
+</imgdir>
+<imgdir name="1902421">
+</imgdir>
+<imgdir name="1902422">
+</imgdir>
+<imgdir name="1902423">
+</imgdir>
+<imgdir name="1902424">
+</imgdir>
+<imgdir name="1902425">
+</imgdir>
+<imgdir name="1902426">
+</imgdir>
+<imgdir name="1902427">
+</imgdir>
+<imgdir name="1902428">
+</imgdir>
+<imgdir name="1902429">
+</imgdir>
+<imgdir name="1902430">
+</imgdir>
+<imgdir name="1902431">
+</imgdir>
+<imgdir name="1902432">
+</imgdir>
+<imgdir name="1902433">
+</imgdir>
+<imgdir name="1902434">
+</imgdir>
+<imgdir name="1902435">
+</imgdir>
+<imgdir name="1902436">
+</imgdir>
+<imgdir name="1902437">
+</imgdir>
+<imgdir name="1902438">
+</imgdir>
+<imgdir name="1902439">
+</imgdir>
+<imgdir name="1902440">
+</imgdir>
+<imgdir name="1902441">
+</imgdir>
+<imgdir name="1902442">
+</imgdir>
+<imgdir name="1902443">
+</imgdir>
+<imgdir name="1902444">
+</imgdir>
+<imgdir name="1902445">
+</imgdir>
+<imgdir name="1902446">
+</imgdir>
+<imgdir name="1902447">
+</imgdir>
+<imgdir name="1902448">
+</imgdir>
+<imgdir name="1902449">
+</imgdir>
+<imgdir name="1902450">
+</imgdir>
+<imgdir name="1902451">
+</imgdir>
+<imgdir name="1902452">
+</imgdir>
+<imgdir name="1902453">
+</imgdir>
+<imgdir name="1902454">
+</imgdir>
+<imgdir name="1902455">
+</imgdir>
+<imgdir name="1902456">
+</imgdir>
+<imgdir name="1902457">
+</imgdir>
+<imgdir name="1902458">
+</imgdir>
+<imgdir name="1902459">
+</imgdir>
+<imgdir name="1902460">
+</imgdir>
+<imgdir name="1902461">
+</imgdir>
+<imgdir name="1902462">
+</imgdir>
+<imgdir name="1902463">
+</imgdir>
+<imgdir name="1902500">
+</imgdir>
+<imgdir name="1902501">
+</imgdir>
+<imgdir name="1902502">
+</imgdir>
+<imgdir name="1902503">
+</imgdir>
+<imgdir name="1902504">
+</imgdir>
+<imgdir name="1902505">
+</imgdir>
+<imgdir name="1902506">
+</imgdir>
+<imgdir name="1902507">
+</imgdir>
+<imgdir name="1902508">
+</imgdir>
+<imgdir name="1902509">
+</imgdir>
+<imgdir name="1902510">
+</imgdir>
+<imgdir name="1902511">
+</imgdir>
+<imgdir name="1902512">
+</imgdir>
+<imgdir name="1902513">
+</imgdir>
+<imgdir name="1902514">
+</imgdir>
+<imgdir name="1902515">
+</imgdir>
+<imgdir name="1902516">
+</imgdir>
+<imgdir name="1902517">
+</imgdir>
+<imgdir name="1902518">
+</imgdir>
+<imgdir name="1902519">
+</imgdir>
+<imgdir name="1902520">
+</imgdir>
+<imgdir name="1902521">
+</imgdir>
+<imgdir name="1902522">
+</imgdir>
+<imgdir name="1902523">
+</imgdir>
+<imgdir name="1902524">
+</imgdir>
+<imgdir name="1902525">
+</imgdir>
+<imgdir name="1902526">
+</imgdir>
+<imgdir name="1902527">
+</imgdir>
+<imgdir name="1902528">
+</imgdir>
+<imgdir name="1902529">
+</imgdir>
+<imgdir name="1902530">
+</imgdir>
+<imgdir name="1902531">
+</imgdir>
+<imgdir name="1902532">
+</imgdir>
+<imgdir name="1902533">
+</imgdir>
+<imgdir name="1902534">
+</imgdir>
+<imgdir name="1902535">
+</imgdir>
+<imgdir name="1902536">
+</imgdir>
+<imgdir name="1902537">
+</imgdir>
+<imgdir name="1902538">
+</imgdir>
+<imgdir name="1902539">
+</imgdir>
+<imgdir name="1902540">
+</imgdir>
+<imgdir name="1902541">
+</imgdir>
+<imgdir name="1902542">
+</imgdir>
+<imgdir name="1902543">
+</imgdir>
+<imgdir name="1902544">
+</imgdir>
+<imgdir name="1902545">
+</imgdir>
+<imgdir name="1902546">
+</imgdir>
+<imgdir name="1902547">
+</imgdir>
+<imgdir name="1902548">
+</imgdir>
+<imgdir name="1902549">
+</imgdir>
+<imgdir name="1902550">
+</imgdir>
+<imgdir name="1902551">
+</imgdir>
+<imgdir name="1902552">
+</imgdir>
+<imgdir name="1902553">
+</imgdir>
+<imgdir name="1902554">
+</imgdir>
+<imgdir name="1902555">
+</imgdir>
+<imgdir name="1902556">
+</imgdir>
+<imgdir name="1902557">
+</imgdir>
+<imgdir name="1902558">
+</imgdir>
+<imgdir name="1902559">
+</imgdir>
+<imgdir name="1902560">
+</imgdir>
+<imgdir name="1902561">
+</imgdir>
+<imgdir name="1902562">
+</imgdir>
+<imgdir name="1902563">
+</imgdir>
+<imgdir name="1902600">
+</imgdir>
+<imgdir name="1902601">
+</imgdir>
+<imgdir name="1902602">
+</imgdir>
+<imgdir name="1902603">
+</imgdir>
+<imgdir name="1902604">
+</imgdir>
+<imgdir name="1902605">
+</imgdir>
+<imgdir name="1902606">
+</imgdir>
+<imgdir name="1902607">
+</imgdir>
+<imgdir name="1902608">
+</imgdir>
+<imgdir name="1902609">
+</imgdir>
+<imgdir name="1902610">
+</imgdir>
+<imgdir name="1902611">
+</imgdir>
+<imgdir name="1902612">
+</imgdir>
+<imgdir name="1902613">
+</imgdir>
+<imgdir name="1902614">
+</imgdir>
+<imgdir name="1902615">
+</imgdir>
+<imgdir name="1902616">
+</imgdir>
+<imgdir name="1902617">
+</imgdir>
+<imgdir name="1902618">
+</imgdir>
+<imgdir name="1902619">
+</imgdir>
+<imgdir name="1902620">
+</imgdir>
+<imgdir name="1902621">
+</imgdir>
+<imgdir name="1902622">
+</imgdir>
+<imgdir name="1902623">
+</imgdir>
+<imgdir name="1902624">
+</imgdir>
+<imgdir name="1902625">
+</imgdir>
+<imgdir name="1902626">
+</imgdir>
+<imgdir name="1902627">
+</imgdir>
+<imgdir name="1902628">
+</imgdir>
+<imgdir name="1902629">
+</imgdir>
+<imgdir name="1902630">
+</imgdir>
+<imgdir name="1902631">
+</imgdir>
+<imgdir name="1902632">
+</imgdir>
+<imgdir name="1902633">
+</imgdir>
+<imgdir name="1902634">
+</imgdir>
+<imgdir name="1902635">
+</imgdir>
+<imgdir name="1902636">
+</imgdir>
+<imgdir name="1902637">
+</imgdir>
+<imgdir name="1902638">
+</imgdir>
+<imgdir name="1902639">
+</imgdir>
+<imgdir name="1902640">
+</imgdir>
+<imgdir name="1902641">
+</imgdir>
+<imgdir name="1902642">
+</imgdir>
+<imgdir name="1902643">
+</imgdir>
+<imgdir name="1902644">
+</imgdir>
+<imgdir name="1902645">
+</imgdir>
+<imgdir name="1902646">
+</imgdir>
+<imgdir name="1902647">
+</imgdir>
+<imgdir name="1902648">
+</imgdir>
+<imgdir name="1902649">
+</imgdir>
+<imgdir name="1902650">
+</imgdir>
+<imgdir name="1902651">
+</imgdir>
+<imgdir name="1902652">
+</imgdir>
+<imgdir name="1902653">
+</imgdir>
+<imgdir name="1902654">
+</imgdir>
+<imgdir name="1902655">
+</imgdir>
+<imgdir name="1902656">
+</imgdir>
+<imgdir name="1902657">
+</imgdir>
+<imgdir name="1902658">
+</imgdir>
+<imgdir name="1902659">
+</imgdir>
+<imgdir name="1902660">
+</imgdir>
+<imgdir name="1902661">
+</imgdir>
+<imgdir name="1902662">
+</imgdir>
+<imgdir name="1902663">
+</imgdir>
+<imgdir name="1902700">
+</imgdir>
+<imgdir name="1902701">
+</imgdir>
+<imgdir name="1902702">
+</imgdir>
+<imgdir name="1902703">
+</imgdir>
+<imgdir name="1902704">
+</imgdir>
+<imgdir name="1902705">
+</imgdir>
+<imgdir name="1902706">
+</imgdir>
+<imgdir name="1902707">
+</imgdir>
+<imgdir name="1902708">
+</imgdir>
+<imgdir name="1902709">
+</imgdir>
+<imgdir name="1902710">
+</imgdir>
+<imgdir name="1902711">
+</imgdir>
+<imgdir name="1902712">
+</imgdir>
+<imgdir name="1902713">
+</imgdir>
+<imgdir name="1902714">
+</imgdir>
+<imgdir name="1902715">
+</imgdir>
+<imgdir name="1902716">
+</imgdir>
+<imgdir name="1902717">
+</imgdir>
+<imgdir name="1902718">
+</imgdir>
+<imgdir name="1902719">
+</imgdir>
+<imgdir name="1902720">
+</imgdir>
+<imgdir name="1902721">
+</imgdir>
+<imgdir name="1902722">
+</imgdir>
+<imgdir name="1902723">
+</imgdir>
+<imgdir name="1902724">
+</imgdir>
+<imgdir name="1902725">
+</imgdir>
+<imgdir name="1902726">
+</imgdir>
+<imgdir name="1902727">
+</imgdir>
+<imgdir name="1902728">
+</imgdir>
+<imgdir name="1902729">
+</imgdir>
+<imgdir name="1902730">
+</imgdir>
+<imgdir name="1902731">
+</imgdir>
+<imgdir name="1902732">
+</imgdir>
+<imgdir name="1902733">
+</imgdir>
+<imgdir name="1902734">
+</imgdir>
+<imgdir name="1902735">
+</imgdir>
+<imgdir name="1902736">
+</imgdir>
+<imgdir name="1902737">
+</imgdir>
+<imgdir name="1902738">
+</imgdir>
+<imgdir name="1902739">
+</imgdir>
+<imgdir name="1902740">
+</imgdir>
+<imgdir name="1902741">
+</imgdir>
+<imgdir name="1902742">
+</imgdir>
+<imgdir name="1902743">
+</imgdir>
+<imgdir name="1902744">
+</imgdir>
+<imgdir name="1902745">
+</imgdir>
+<imgdir name="1902746">
+</imgdir>
+<imgdir name="1902747">
+</imgdir>
+<imgdir name="1902748">
+</imgdir>
+<imgdir name="1902749">
+</imgdir>
+<imgdir name="1902750">
+</imgdir>
+<imgdir name="1902751">
+</imgdir>
+<imgdir name="1902752">
+</imgdir>
+<imgdir name="1902753">
+</imgdir>
+<imgdir name="1902754">
+</imgdir>
+<imgdir name="1902755">
+</imgdir>
+<imgdir name="1902756">
+</imgdir>
+<imgdir name="1902757">
+</imgdir>
+<imgdir name="1902758">
+</imgdir>
+<imgdir name="1902759">
+</imgdir>
+<imgdir name="1902760">
+</imgdir>
+<imgdir name="1902761">
+</imgdir>
+<imgdir name="1902762">
+</imgdir>
+<imgdir name="1902763">
+</imgdir>
+<imgdir name="1902800">
+</imgdir>
+<imgdir name="1902801">
+</imgdir>
+<imgdir name="1902802">
+</imgdir>
+<imgdir name="1902803">
+</imgdir>
+<imgdir name="1902804">
+</imgdir>
+<imgdir name="1902805">
+</imgdir>
+<imgdir name="1902806">
+</imgdir>
+<imgdir name="1902807">
+</imgdir>
+<imgdir name="1902808">
+</imgdir>
+<imgdir name="1902809">
+</imgdir>
+<imgdir name="1902810">
+</imgdir>
+<imgdir name="1902811">
+</imgdir>
+<imgdir name="1902812">
+</imgdir>
+<imgdir name="1902813">
+</imgdir>
+<imgdir name="1902814">
+</imgdir>
+<imgdir name="1902815">
+</imgdir>
+<imgdir name="1902816">
+</imgdir>
+<imgdir name="1902817">
+</imgdir>
+<imgdir name="1902818">
+</imgdir>
+<imgdir name="1902819">
+</imgdir>
+<imgdir name="1902820">
+</imgdir>
+<imgdir name="1902821">
+</imgdir>
+<imgdir name="1902822">
+</imgdir>
+<imgdir name="1902823">
+</imgdir>
+<imgdir name="1902824">
+</imgdir>
+<imgdir name="1902825">
+</imgdir>
+<imgdir name="1902826">
+</imgdir>
+<imgdir name="1902827">
+</imgdir>
+<imgdir name="1902828">
+</imgdir>
+<imgdir name="1902829">
+</imgdir>
+<imgdir name="1902830">
+</imgdir>
+<imgdir name="1902831">
+</imgdir>
+<imgdir name="1902832">
+</imgdir>
+<imgdir name="1902833">
+</imgdir>
+<imgdir name="1902834">
+</imgdir>
+<imgdir name="1902835">
+</imgdir>
+<imgdir name="1902836">
+</imgdir>
+<imgdir name="1902837">
+</imgdir>
+<imgdir name="1902838">
+</imgdir>
+<imgdir name="1902839">
+</imgdir>
+<imgdir name="1902840">
+</imgdir>
+<imgdir name="1902841">
+</imgdir>
+<imgdir name="1902842">
+</imgdir>
+<imgdir name="1902843">
+</imgdir>
+<imgdir name="1902844">
+</imgdir>
+<imgdir name="1902845">
+</imgdir>
+<imgdir name="1902846">
+</imgdir>
+<imgdir name="1902847">
+</imgdir>
+<imgdir name="1902848">
+</imgdir>
+<imgdir name="1902849">
+</imgdir>
+<imgdir name="1902850">
+</imgdir>
+<imgdir name="1902851">
+</imgdir>
+<imgdir name="1902852">
+</imgdir>
+<imgdir name="1902853">
+</imgdir>
+<imgdir name="1902854">
+</imgdir>
+<imgdir name="1902855">
+</imgdir>
+<imgdir name="1902856">
+</imgdir>
+<imgdir name="1902857">
+</imgdir>
+<imgdir name="1902858">
+</imgdir>
+<imgdir name="1902859">
+</imgdir>
+<imgdir name="1902860">
+</imgdir>
+<imgdir name="1902861">
+</imgdir>
+<imgdir name="1902862">
+</imgdir>
+<imgdir name="1902863">
+</imgdir>
+<imgdir name="1902900">
+</imgdir>
+<imgdir name="1902901">
+</imgdir>
+<imgdir name="1902902">
+</imgdir>
+<imgdir name="1902903">
+</imgdir>
+<imgdir name="1902904">
+</imgdir>
+<imgdir name="1902905">
+</imgdir>
+<imgdir name="1902906">
+</imgdir>
+<imgdir name="1902907">
+</imgdir>
+<imgdir name="1902908">
+</imgdir>
+<imgdir name="1902909">
+</imgdir>
+<imgdir name="1902910">
+</imgdir>
+<imgdir name="1902911">
+</imgdir>
+<imgdir name="1902912">
+</imgdir>
+<imgdir name="1902913">
+</imgdir>
+<imgdir name="1902914">
+</imgdir>
+<imgdir name="1902915">
+</imgdir>
+<imgdir name="1902916">
+</imgdir>
+<imgdir name="1902917">
+</imgdir>
+<imgdir name="1902918">
+</imgdir>
+<imgdir name="1902919">
+</imgdir>
+<imgdir name="1902920">
+</imgdir>
+<imgdir name="1902921">
+</imgdir>
+<imgdir name="1902922">
+</imgdir>
+<imgdir name="1902923">
+</imgdir>
+<imgdir name="1902924">
+</imgdir>
+<imgdir name="1902925">
+</imgdir>
+<imgdir name="1902926">
+</imgdir>
+<imgdir name="1902927">
+</imgdir>
+<imgdir name="1902928">
+</imgdir>
+<imgdir name="1902929">
+</imgdir>
+<imgdir name="1902930">
+</imgdir>
+<imgdir name="1902931">
+</imgdir>
+<imgdir name="1902932">
+</imgdir>
+<imgdir name="1902933">
+</imgdir>
+<imgdir name="1902934">
+</imgdir>
+<imgdir name="1902935">
+</imgdir>
+<imgdir name="1902936">
+</imgdir>
+<imgdir name="1902937">
+</imgdir>
+<imgdir name="1902938">
+</imgdir>
+<imgdir name="1902939">
+</imgdir>
+<imgdir name="1902940">
+</imgdir>
+<imgdir name="1902941">
+</imgdir>
+<imgdir name="1902942">
+</imgdir>
+<imgdir name="1902943">
+</imgdir>
+<imgdir name="1902944">
+</imgdir>
+<imgdir name="1902945">
+</imgdir>
+<imgdir name="1902946">
+</imgdir>
+<imgdir name="1902947">
+</imgdir>
+<imgdir name="1902948">
+</imgdir>
+<imgdir name="1902949">
+</imgdir>
+<imgdir name="1902950">
+</imgdir>
+<imgdir name="1902951">
+</imgdir>
+<imgdir name="1902952">
+</imgdir>
+<imgdir name="1902953">
+</imgdir>
+<imgdir name="1902954">
+</imgdir>
+<imgdir name="1902955">
+</imgdir>
+<imgdir name="1902956">
+</imgdir>
+<imgdir name="1902957">
+</imgdir>
+<imgdir name="1902958">
+</imgdir>
+<imgdir name="1902959">
+</imgdir>
+<imgdir name="1902960">
+</imgdir>
+<imgdir name="1902961">
+</imgdir>
+<imgdir name="1902962">
+</imgdir>
+<imgdir name="1902963">
+</imgdir>
+<imgdir name="info">
+<int name="hpRecovery" value="0"/>
+<canvas name="icon" width="30" height="30">
+<vector name="origin" x="-1" y="31"/>
+</canvas>
+<canvas name="iconRaw" width="30" height="29">
+<vector name="origin" x="-1" y="31"/>
+</canvas>
+<int name="incEVA" value="0"/>
+<int name="incFatigue" value="0"/>
+<int name="incJump" value="0"/>
+<int name="incMDD" value="0"/>
+<int name="incPDD" value="0"/>
+<int name="incSpeed" value="0"/>
+<int name="incSwim" value="0"/>
+<string name="islot" value="Sd"/>
+<int name="mpRecovery" value="0"/>
+<int name="notSale" value="1"/>
+<int name="only" value="1"/>
+<int name="reqLevel" value="0"/>
+<int name="tradeBlock" value="1"/>
+<int name="tuc" value="0"/>
+<string name="vslot" value="Sd"/>
+</imgdir>
+</imgdir>

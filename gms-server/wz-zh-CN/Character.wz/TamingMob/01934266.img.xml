@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="01984266.img">
+<imgdir name="info">
+<vector name="bodyRelMove" x="-2" y="-42"/>
+<canvas name="icon" width="34" height="32">
+<vector name="origin" x="1" y="32"/>
+<int name="z" value="0"/>
+</canvas>
+<canvas name="iconRaw" width="1" height="1">
+<vector name="origin" x="1" y="32"/>
+<int name="z" value="0"/>
+</canvas>
+</imgdir>
+<imgdir name="sit">
+<imgdir name="0">
+<int name="delay" value="90"/>
+<canvas name="tamingMobFront" width="1" height="1">
+<vector name="origin" x="24" y="73"/>
+<string name="z" value="tamingMobFront"/>
+<string name="_outlink" value="Character/TamingMob/_Canvas/01984266.img/sit/0/tamingMobFront"/>
+</canvas>
+<canvas name="tamingMobRear" width="1" height="1">
+<vector name="origin" x="85" y="112"/>
+<string name="z" value="tamingMobRear"/>
+<imgdir name="map">
+<vector name="navel" x="2" y="-18"/>
+</imgdir>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<int name="delay" value="90"/>
+<canvas name="tamingMobFront" width="1" height="1">
+<vector name="origin" x="61" y="74"/>
+<string name="z" value="tamingMobFront"/>
+<string name="_outlink" value="Character/TamingMob/_Canvas/01984266.img/sit/1/tamingMobFront"/>
+</canvas>
+<canvas name="tamingMobRear" width="1" height="1">
+<vector name="origin" x="79" y="110"/>
+<string name="z" value="tamingMobRear"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-17"/>
+</imgdir>
+<string name="_outlink" value="Character/TamingMob/_Canvas/01984266.img/sit/1/tamingMobRear"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<int name="delay" value="90"/>
+<canvas name="tamingMobFront" width="1" height="1">
+<vector name="origin" x="60" y="82"/>
+<string name="z" value="tamingMobFront"/>
+<string name="_outlink" value="Character/TamingMob/_Canvas/01984266.img/sit/2/tamingMobFront"/>
+</canvas>
+<canvas name="tamingMobRear" width="1" height="1">
+<vector name="origin" x="85" y="124"/>
+<string name="z" value="tamingMobRear"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-15"/>
+</imgdir>
+<string name="_outlink" value="Character/TamingMob/_Canvas/01984266.img/sit/2/tamingMobRear"/>
+</canvas>
+</imgdir>
+<imgdir name="3">
+<int name="delay" value="90"/>
+<canvas name="tamingMobFront" width="1" height="1">
+<vector name="origin" x="45" y="83"/>
+<string name="z" value="tamingMobFront"/>
+<string name="_outlink" value="Character/TamingMob/_Canvas/01984266.img/sit/3/tamingMobFront"/>
+</canvas>
+<canvas name="tamingMobRear" width="1" height="1">
+<vector name="origin" x="80" y="118"/>
+<string name="z" value="tamingMobRear"/>
+<imgdir name="map">
+<vector name="navel" x="5" y="-14"/>
+</imgdir>
+<string name="_outlink" value="Character/TamingMob/_Canvas/01984266.img/sit/3/tamingMobRear"/>
+</canvas>
+</imgdir>
+<imgdir name="4">
+<int name="delay" value="90"/>
+<canvas name="tamingMobFront" width="1" height="1">
+<vector name="origin" x="37" y="75"/>
+<string name="z" value="tamingMobFront"/>
+<string name="_outlink" value="Character/TamingMob/_Canvas/01984266.img/sit/4/tamingMobFront"/>
+</canvas>
+<canvas name="tamingMobRear" width="1" height="1">
+<vector name="origin" x="70" y="101"/>
+<string name="z" value="tamingMobRear"/>
+<imgdir name="map">
+<vector name="navel" x="2" y="-18"/>
+</imgdir>
+<string name="_outlink" value="Character/TamingMob/_Canvas/01984266.img/sit/4/tamingMobRear"/>
+</canvas>
+</imgdir>
+<imgdir name="5">
+<int name="delay" value="90"/>
+<canvas name="tamingMobFront" width="1" height="1">
+<vector name="origin" x="38" y="80"/>
+<string name="z" value="tamingMobFront"/>
+<string name="_outlink" value="Character/TamingMob/_Canvas/01984266.img/sit/5/tamingMobFront"/>
+</canvas>
+<canvas name="tamingMobRear" width="1" height="1">
+<vector name="origin" x="76" y="103"/>
+<string name="z" value="tamingMobRear"/>
+<imgdir name="map">
+<vector name="navel" x="1" y="-17"/>
+</imgdir>
+<string name="_outlink" value="Character/TamingMob/_Canvas/01984266.img/sit/5/tamingMobRear"/>
+</canvas>
+</imgdir>
+<imgdir name="6">
+<int name="delay" value="90"/>
+<canvas name="tamingMobFront" width="1" height="1">
+<vector name="origin" x="35" y="81"/>
+<string name="z" value="tamingMobFront"/>
+<string name="_outlink" value="Character/TamingMob/_Canvas/01984266.img/sit/6/tamingMobFront"/>
+</canvas>
+<canvas name="tamingMobRear" width="1" height="1">
+<vector name="origin" x="78" y="107"/>
+<string name="z" value="tamingMobRear"/>
+<imgdir name="map">
+<vector name="navel" x="-1" y="-15"/>
+</imgdir>
+<string name="_outlink" value="Character/TamingMob/_Canvas/01984266.img/sit/6/tamingMobRear"/>
+</canvas>
+</imgdir>
+<imgdir name="7">
+<int name="delay" value="90"/>
+<canvas name="tamingMobFront" width="1" height="1">
+<vector name="origin" x="33" y="82"/>
+<string name="z" value="tamingMobFront"/>
+<string name="_outlink" value="Character/TamingMob/_Canvas/01984266.img/sit/7/tamingMobFront"/>
+</canvas>
+<canvas name="tamingMobRear" width="1" height="1">
+<vector name="origin" x="75" y="119"/>
+<string name="z" value="tamingMobRear"/>
+<imgdir name="map">
+<vector name="navel" x="-2" y="-13"/>
+</imgdir>
+<string name="_outlink" value="Character/TamingMob/_Canvas/01984266.img/sit/7/tamingMobRear"/>
+</canvas>
+</imgdir>
+<imgdir name="8">
+<int name="delay" value="90"/>
+<canvas name="tamingMobFront" width="1" height="1">
+<vector name="origin" x="18" y="67"/>
+<string name="z" value="tamingMobFront"/>
+<string name="_outlink" value="Character/TamingMob/_Canvas/01984266.img/sit/8/tamingMobFront"/>
+</canvas>
+<canvas name="tamingMobRear" width="1" height="1">
+<vector name="origin" x="75" y="110"/>
+<string name="z" value="tamingMobRear"/>
+<imgdir name="map">
+<vector name="navel" x="-3" y="-12"/>
+</imgdir>
+<string name="_outlink" value="Character/TamingMob/_Canvas/01984266.img/sit/8/tamingMobRear"/>
+</canvas>
+</imgdir>
+</imgdir>
+</imgdir>

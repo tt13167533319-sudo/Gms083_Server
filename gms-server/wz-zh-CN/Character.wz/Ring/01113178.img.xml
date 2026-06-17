@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="01113178.img">
+<imgdir name="info">
+<canvas name="icon" width="28" height="30">
+<vector name="origin" x="-2" y="30"/>
+</canvas>
+<canvas name="iconRaw" width="28" height="28">
+<vector name="origin" x="-2" y="30"/>
+</canvas>
+<int name="incDEX" value="6"/>
+<int name="incINT" value="6"/>
+<int name="incLUK" value="6"/>
+<int name="incMDD" value="28"/>
+<int name="incPDD" value="28"/>
+<int name="incSTR" value="6"/>
+<string name="islot" value="Ri"/>
+<int name="onlyEquip" value="1"/>
+<int name="price" value="1"/>
+<int name="reqJob" value="0"/>
+<int name="reqLevel" value="75"/>
+<int name="timeLimited" value="1"/>
+<int name="tradeBlock" value="1"/>
+<int name="tuc" value="3"/>
+<string name="vslot" value="Ri"/>
+</imgdir>
+</imgdir>
